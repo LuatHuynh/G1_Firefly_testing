@@ -1,19 +1,19 @@
 ﻿name,currency,iban,bic,account_number,opening_balance,opening_balance_date,virtual_balance,account_role,include_in_net_worth,notes,attachments
-nkochel0,8,,GOLGYIQ45E8,,,27/06/2023,931.18,ccAsset,true,,
-adefrancesco1,8,PK93 RAGE 41CE DRBV LYVG DVKY,,5048374085224626,,18/11/2023,197.07,sharedAsset,false,,
-,1,GL44 1834 8169 6802 91,JVWNVLFF241,5108750646936773,893.07,02/05/2023,,ccAsset,false,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+nkochel0,8,,GOLGYIQ45E8,,,27/6/2023,931.18,ccAsset,TRUE,,
+adefrancesco1,8,PK93 RAGE 41CE DRBV LYVG DVKY,,5.04837E+15,,18/11/2023,197.07,sharedAsset,FALSE,,
+,1,GL44 1834 8169 6802 91,JVWNVLFF241,5.10875E+15,893.07,2/5/2023,,ccAsset,FALSE,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
 
 Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",Attachments File/Report_1MB.csv
-astrauss3,8,BR52 6592 2901 1370 9127 6135 054T R,,5108756854147722,510.11,,950.19,defaultAsset,true,,Attachments File/Report_1MB.csv
-spittoli4,8,FR12 4568 4252 06SK 8GEC AX6O N33,BTTRYDOX7GT,5108755408059797,,07/03/2023,420.81,ccAsset,true,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
+astrauss3,8,BR52 6592 2901 1370 9127 6135 054T R,,5.10876E+15,510.11,,950.19,defaultAsset,TRUE,,Attachments File/Report_1MB.csv
+spittoli4,8,FR12 4568 4252 06SK 8GEC AX6O N33,BTTRYDOX7GT,5.10876E+15,,7/3/2023,420.81,ccAsset,TRUE,"Proin leo odio, porttitor id, consequat in, consequat ut, nulla. Sed accumsan felis. Ut at dolor quis odio consequat varius.
 
 Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.",
-ocumesky5,8,,FDKNHM0SXO2,,584.39,,,defaultAsset,false,"Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+ocumesky5,8,,FDKNHM0SXO2,,584.39,,,defaultAsset,FALSE,"Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
 
 Curabitur gravida nisi at nibh. In hac habitasse platea dictumst. Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
-ghatherleigh6,8,BE07 8829 4268 1848,,,,08/02/2023,447.74,sharedAsset,false,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+ghatherleigh6,8,BE07 8829 4268 1848,,,,8/2/2023,447.74,sharedAsset,FALSE,"Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus vestibulum sagittis sapien. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
 
 Etiam vel augue. Vestibulum rutrum rutrum neque. Aenean auctor gravida sem.",Attachments File/Report_65MB.csv
-rbalmann7,8,GI92 LRZP ETHZ XOKK U5MN UEJ,,5048379309114461,,,562.63,ccAsset,true,,
-emcfeat8,8,MU95 LKTQ 0322 1174 3122 1772 706A UE,GZKIIPEBL5Z,5048370420883472,,22/02/2023,974.51,savingAsset,true,Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.,
-atribbeck9,8,,OAEDGA9VLQJ,,,29/05/2023,21.96,sharedAsset,true,,
+rbalmann7,8,GI92 LRZP ETHZ XOKK U5MN UEJ,,5.04838E+15,,,562.63,ccAsset,TRUE,,
+emcfeat8,8,MU95 LKTQ 0322 1174 3122 1772 706A UE,GZKIIPEBL5Z,5.04837E+15,,22/2/2023,974.51,savingAsset,TRUE,Phasellus sit amet erat. Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.,
+atribbeck9,8,,OAEDGA9VLQJ,,,29/5/2023,21.96,sharedAsset,TRUE,,

@@ -80,7 +80,9 @@ try {
 }
 catch (def err) {
     WebUI.verifyElementPresent(findTestObject('Shared_alert/success_alert'), 1)
-
+	if (attachments == 'Attachments File/Report_65MB.csv') {
+		assert false
+	}
     System.out.println('success')
 } 
 

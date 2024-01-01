@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.nio.file.Paths as Paths
 
 WebUI.openBrowser('')
 
@@ -85,7 +86,9 @@ try {
 }
 catch (def err) {
     WebUI.verifyElementPresent(findTestObject('Shared_alert/success_alert'), 1)
-
+	if (attachments == 'Attachments File/Report_65MB.csv') {
+		assert false
+	}
     System.out.println('success')
 } 
 
