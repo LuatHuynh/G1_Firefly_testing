@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import java.nio.file.Paths
+import java.nio.file.Paths as Paths
 
 WebUI.openBrowser('')
 
@@ -33,39 +33,41 @@ WebUI.setText(findTestObject('Object Repository/Create a new asset account/Page_
     name)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Create a new asset account/Page_Create a new asset account  Accounts  _ced620/select_Euro ()US Dollar ()'), 
-    '1', true)
+    currency, true)
 
 WebUI.setText(findTestObject('Object Repository/Create a new asset account/Page_Create a new asset account  Accounts  _ced620/input_iban'), 
-    'GB29 NWBK 6016 1331 9268 19')
+    iban)
 
 WebUI.setText(findTestObject('Object Repository/Create a new asset account/Page_Create a new asset account  Accounts  _ced620/input_BIC'), 
-    'ABCDUS12345')
+    bic)
 
 WebUI.setText(findTestObject('Object Repository/Create a new asset account/Page_Create a new asset account  Accounts  _ced620/input_account_number'), 
-    '')
+    account_number)
 
 WebUI.setText(findTestObject('Object Repository/Create a new asset account/Page_Create a new asset account  Accounts  _ced620/input_opening_balance'), 
-    '')
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Create a new asset account/Page_Create a new asset account  Accounts  _ced620/select_Default asset accountShared asset ac_afbbdd'), 
-    'sharedAsset', true)
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Create a new asset account/Page_Create a new asset account  Accounts  _ced620/select_Default asset accountShared asset ac_afbbdd'), 
-    'defaultAsset', true)
-
-WebUI.setText(findTestObject('Object Repository/Create a new asset account/Page_Create a new asset account  Accounts  _ced620/input_virtual_balance'), 
-    '100')
-
-WebUI.setText(findTestObject('Object Repository/Create a new asset account/Page_Create a new asset account  Accounts  _ced620/textarea_notes'), 
-    'note')
+    opening_balance)
 
 WebUI.setText(findTestObject('Create a new asset account/Page_Create a new asset account  Accounts  _ced620/input_opening_balance_date'), 
-    '20/12/2002')
+    opening_balance_date)
 
-String absolutePath = Paths.get("Attachments File/MOCK_DATA.csv").toAbsolutePath().normalize().toString()
-System.out.println(absolutePath)
-WebUI.uploadFile(findTestObject('Create a new asset account/Page_Create a new asset account  Accounts  _ced620/upload file'), 
-    absolutePath)
+WebUI.selectOptionByValue(findTestObject('Object Repository/Create a new asset account/Page_Create a new asset account  Accounts  _ced620/select_Default asset accountShared asset ac_afbbdd'), 
+    account_role, true)
+
+WebUI.setText(findTestObject('Object Repository/Create a new asset account/Page_Create a new asset account  Accounts  _ced620/input_virtual_balance'), 
+    virtual_balance)
+
+if (include_in_net_worth == "false") {
+	WebUI.click(findTestObject('Create a new asset account/Page_Create a new asset account  Accounts  _ced620/input_include_net_worth'))
+}
+
+WebUI.setText(findTestObject('Object Repository/Create a new asset account/Page_Create a new asset account  Accounts  _ced620/textarea_notes'), 
+    notes)
+
+if (attachments != '') {
+	String absolutePath = Paths.get(attachments).toAbsolutePath().normalize().toString()
+    WebUI.uploadFile(findTestObject('Create a new asset account/Page_Create a new asset account  Accounts  _ced620/upload file'), 
+        absolutePath)
+}
 
 WebUI.click(findTestObject('Object Repository/Create a new asset account/Page_Create a new asset account  Accounts  _ced620/button_Store new asset account'))
 
