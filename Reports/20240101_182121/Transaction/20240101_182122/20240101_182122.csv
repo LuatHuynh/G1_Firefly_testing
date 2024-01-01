@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Transaction,Chrome 120.0.0.0,,,01-01-2024 18:21:26,01-01-2024 18:22:08,41.897s,FAILED
+,,,,,,,
+Test Cases/Transaction,Chrome 120.0.0.0,,Create Transaction,01-01-2024 18:21:26,01-01-2024 18:21:42,16.139s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,01-01-2024 18:21:26,01-01-2024 18:21:28,1.638s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/login"")",Chrome 120.0.0.0,,,01-01-2024 18:21:28,01-01-2024 18:21:31,3.046s,PASSED
+"setText(findTestObject(""Object Repository/Transaction/Page_Login to Firefly III/input_email""), ""killermh1352@gmail.com"")",Chrome 120.0.0.0,,,01-01-2024 18:21:31,01-01-2024 18:21:32,0.991s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Transaction/Page_Login to Firefly III/input_password""), ""6oCTgB1F4BsRIglOqBBBioLQaRY939LF"")",Chrome 120.0.0.0,,,01-01-2024 18:21:32,01-01-2024 18:21:33,0.431s,PASSED
+"sendKeys(findTestObject(""Object Repository/Transaction/Page_Login to Firefly III/input_password""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,01-01-2024 18:21:33,01-01-2024 18:21:34,1.007s,PASSED
+"click(findTestObject(""Object Repository/Transaction/Page_Whats playing  Firefly III/a_Transactions""))",Chrome 120.0.0.0,,,01-01-2024 18:21:34,01-01-2024 18:21:35,0.987s,PASSED
+"click(findTestObject(""Object Repository/Transaction/Page_Whats playing  Firefly III/a_Expenses""))",Chrome 120.0.0.0,,,01-01-2024 18:21:35,01-01-2024 18:21:35,0.782s,PASSED
+"click(findTestObject(""Object Repository/Transaction/Page_All expenses between January 1st, 2024_d388e7/a_Create a new transaction""))",Chrome 120.0.0.0,,,01-01-2024 18:21:35,01-01-2024 18:21:36,1.109s,PASSED
+"setText(findTestObject(""Transaction/Page_Create new withdrawal  Transactions  F_057ce1/input_description""), description)",Chrome 120.0.0.0,,,01-01-2024 18:21:36,01-01-2024 18:21:38,1.314s,PASSED
+"setText(findTestObject(""Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/input_source""), source_account, STOP_ON_FAILURE)",Chrome 120.0.0.0,,,01-01-2024 18:21:38,01-01-2024 18:21:39,0.829s,PASSED
+"setText(findTestObject(""Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/input_destination""), destination_account, STOP_ON_FAILURE)",Chrome 120.0.0.0,,,01-01-2024 18:21:39,01-01-2024 18:21:40,1.184s,PASSED
+"setText(findTestObject(""Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/input_amount""), amount)",Chrome 120.0.0.0,,,01-01-2024 18:21:40,01-01-2024 18:21:41,1.170s,PASSED
+"if (getText(findTestObject(""Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/select_foreign_currency"")) == """")",Chrome 120.0.0.0,,,01-01-2024 18:21:41,01-01-2024 18:21:41,0.346s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/select_(none)      My Budget""), budget, true)",Chrome 120.0.0.0,,,01-01-2024 18:21:41,01-01-2024 18:21:42,0.876s,FAILED
+,,,,,,,
+Test Cases/Transaction,Chrome 120.0.0.0,,Create Transaction,01-01-2024 18:21:42,01-01-2024 18:22:08,25.316s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,01-01-2024 18:21:42,01-01-2024 18:21:43,0.921s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/login"")",Chrome 120.0.0.0,,,01-01-2024 18:21:43,01-01-2024 18:21:46,3.125s,PASSED
+"setText(findTestObject(""Object Repository/Transaction/Page_Login to Firefly III/input_email""), ""killermh1352@gmail.com"")",Chrome 120.0.0.0,,,01-01-2024 18:21:46,01-01-2024 18:21:47,0.881s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Transaction/Page_Login to Firefly III/input_password""), ""6oCTgB1F4BsRIglOqBBBioLQaRY939LF"")",Chrome 120.0.0.0,,,01-01-2024 18:21:47,01-01-2024 18:21:48,0.464s,PASSED
+"sendKeys(findTestObject(""Object Repository/Transaction/Page_Login to Firefly III/input_password""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,01-01-2024 18:21:48,01-01-2024 18:21:49,0.950s,PASSED
+"click(findTestObject(""Object Repository/Transaction/Page_Whats playing  Firefly III/a_Transactions""))",Chrome 120.0.0.0,,,01-01-2024 18:21:49,01-01-2024 18:21:50,1.018s,PASSED
+"click(findTestObject(""Object Repository/Transaction/Page_Whats playing  Firefly III/a_Expenses""))",Chrome 120.0.0.0,,,01-01-2024 18:21:50,01-01-2024 18:21:51,0.878s,PASSED
+"click(findTestObject(""Object Repository/Transaction/Page_All expenses between January 1st, 2024_d388e7/a_Create a new transaction""))",Chrome 120.0.0.0,,,01-01-2024 18:21:51,01-01-2024 18:21:51,0.715s,PASSED
+"setText(findTestObject(""Transaction/Page_Create new withdrawal  Transactions  F_057ce1/input_description""), description)",Chrome 120.0.0.0,,,01-01-2024 18:21:51,01-01-2024 18:22:08,16.323s,FAILED
