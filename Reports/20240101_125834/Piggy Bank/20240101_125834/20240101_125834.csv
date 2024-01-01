@@ -1,0 +1,44 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Piggy Bank,Chrome 120.0.0.0,,,01-01-2024 12:58:38,01-01-2024 12:59:17,39.304s,PASSED
+,,,,,,,
+Test Cases/Piggy Bank,Chrome 120.0.0.0,,,01-01-2024 12:58:38,01-01-2024 12:58:58,20.265s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,01-01-2024 12:58:39,01-01-2024 12:58:40,1.731s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/login"")",Chrome 120.0.0.0,,,01-01-2024 12:58:40,01-01-2024 12:58:43,3.073s,PASSED
+"setText(findTestObject(""Object Repository/Piggy Bank/Page_Login to Firefly III/input_email""), username)",Chrome 120.0.0.0,,,01-01-2024 12:58:43,01-01-2024 12:58:44,0.857s,PASSED
+"setText(findTestObject(""Object Repository/Piggy Bank/Page_Login to Firefly III/input_password""), password)",Chrome 120.0.0.0,,,01-01-2024 12:58:44,01-01-2024 12:58:45,0.759s,PASSED
+"sendKeys(findTestObject(""Object Repository/Piggy Bank/Page_Login to Firefly III/input_password""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,01-01-2024 12:58:45,01-01-2024 12:58:46,0.895s,PASSED
+"click(findTestObject(""Object Repository/Piggy Bank/Page_Whats playing  Firefly III/a_Piggy banks""))",Chrome 120.0.0.0,,,01-01-2024 12:58:46,01-01-2024 12:58:48,1.864s,PASSED
+"click(findTestObject(""Object Repository/Piggy Bank/Page_Piggy banks  Firefly III/a_Create new piggy bank""))",Chrome 120.0.0.0,,,01-01-2024 12:58:48,01-01-2024 12:58:49,0.789s,PASSED
+"setText(findTestObject(""Object Repository/Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/input_name""), name)",Chrome 120.0.0.0,,,01-01-2024 12:58:49,01-01-2024 12:58:49,0.816s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/select_My Savings AccountMy Asset Account""), save_on_account, true)",Chrome 120.0.0.0,,,01-01-2024 12:58:49,01-01-2024 12:58:51,1.064s,PASSED
+"setText(findTestObject(""Object Repository/Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/input_targetamount""), target_amount)",Chrome 120.0.0.0,,,01-01-2024 12:58:51,01-01-2024 12:58:51,0.655s,PASSED
+"setText(findTestObject(""Object Repository/Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/textarea_notes""), notes)",Chrome 120.0.0.0,,,01-01-2024 12:58:51,01-01-2024 12:58:52,0.812s,PASSED
+"setText(findTestObject(""Object Repository/Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/input_object_group""), group)",Chrome 120.0.0.0,,,01-01-2024 12:58:52,01-01-2024 12:58:53,0.858s,PASSED
+"setText(findTestObject(""Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/input_date""), target_date)",Chrome 120.0.0.0,,,01-01-2024 12:58:53,01-01-2024 12:58:54,1.235s,PASSED
+"uploadFile(findTestObject(""Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/button_upload""), ""D:\grade.xlsx"")",Chrome 120.0.0.0,,,01-01-2024 12:58:54,01-01-2024 12:58:54,0.371s,PASSED
+"click(findTestObject(""Object Repository/Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/div_Mandatory fields                       _ed7e9e""))",Chrome 120.0.0.0,,,01-01-2024 12:58:54,01-01-2024 12:58:55,0.337s,PASSED
+"click(findTestObject(""Object Repository/Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/button_Store new piggy bank""))",Chrome 120.0.0.0,,,01-01-2024 12:58:55,01-01-2024 12:58:56,1.198s,PASSED
+try,Chrome 120.0.0.0,,,01-01-2024 12:58:56,01-01-2024 12:58:58,1.950s,FAILED
+catch (Exception err),Chrome 120.0.0.0,,,01-01-2024 12:58:58,01-01-2024 12:58:58,0.331s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,01-01-2024 12:58:58,01-01-2024 12:58:58,0.187s,PASSED
+,,,,,,,
+Test Cases/Piggy Bank,Chrome 120.0.0.0,,,01-01-2024 12:58:59,01-01-2024 12:59:17,18.605s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,01-01-2024 12:58:59,01-01-2024 12:58:59,0.764s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/login"")",Chrome 120.0.0.0,,,01-01-2024 12:58:59,01-01-2024 12:59:02,3.000s,PASSED
+"setText(findTestObject(""Object Repository/Piggy Bank/Page_Login to Firefly III/input_email""), username)",Chrome 120.0.0.0,,,01-01-2024 12:59:02,01-01-2024 12:59:03,0.809s,PASSED
+"setText(findTestObject(""Object Repository/Piggy Bank/Page_Login to Firefly III/input_password""), password)",Chrome 120.0.0.0,,,01-01-2024 12:59:03,01-01-2024 12:59:04,0.685s,PASSED
+"sendKeys(findTestObject(""Object Repository/Piggy Bank/Page_Login to Firefly III/input_password""), Keys.chord(ENTER))",Chrome 120.0.0.0,,,01-01-2024 12:59:04,01-01-2024 12:59:05,1.129s,PASSED
+"click(findTestObject(""Object Repository/Piggy Bank/Page_Whats playing  Firefly III/a_Piggy banks""))",Chrome 120.0.0.0,,,01-01-2024 12:59:05,01-01-2024 12:59:07,1.769s,PASSED
+"click(findTestObject(""Object Repository/Piggy Bank/Page_Piggy banks  Firefly III/a_Create new piggy bank""))",Chrome 120.0.0.0,,,01-01-2024 12:59:07,01-01-2024 12:59:08,0.775s,PASSED
+"setText(findTestObject(""Object Repository/Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/input_name""), name)",Chrome 120.0.0.0,,,01-01-2024 12:59:08,01-01-2024 12:59:08,0.918s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/select_My Savings AccountMy Asset Account""), save_on_account, true)",Chrome 120.0.0.0,,,01-01-2024 12:59:08,01-01-2024 12:59:09,1.041s,PASSED
+"setText(findTestObject(""Object Repository/Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/input_targetamount""), target_amount)",Chrome 120.0.0.0,,,01-01-2024 12:59:09,01-01-2024 12:59:10,0.716s,PASSED
+"setText(findTestObject(""Object Repository/Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/textarea_notes""), notes)",Chrome 120.0.0.0,,,01-01-2024 12:59:10,01-01-2024 12:59:11,0.846s,PASSED
+"setText(findTestObject(""Object Repository/Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/input_object_group""), group)",Chrome 120.0.0.0,,,01-01-2024 12:59:11,01-01-2024 12:59:12,0.780s,PASSED
+"setText(findTestObject(""Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/input_date""), target_date)",Chrome 120.0.0.0,,,01-01-2024 12:59:12,01-01-2024 12:59:13,0.871s,PASSED
+"uploadFile(findTestObject(""Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/button_upload""), ""D:\grade.xlsx"")",Chrome 120.0.0.0,,,01-01-2024 12:59:13,01-01-2024 12:59:13,0.353s,PASSED
+"click(findTestObject(""Object Repository/Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/div_Mandatory fields                       _ed7e9e""))",Chrome 120.0.0.0,,,01-01-2024 12:59:13,01-01-2024 12:59:13,0.380s,PASSED
+"click(findTestObject(""Object Repository/Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/button_Store new piggy bank""))",Chrome 120.0.0.0,,,01-01-2024 12:59:13,01-01-2024 12:59:15,1.414s,PASSED
+try,Chrome 120.0.0.0,,,01-01-2024 12:59:15,01-01-2024 12:59:17,1.823s,FAILED
+catch (Exception err),Chrome 120.0.0.0,,,01-01-2024 12:59:17,01-01-2024 12:59:17,0.306s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,01-01-2024 12:59:17,01-01-2024 12:59:17,0.176s,PASSED

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_upload</name>
+   <tag></tag>
+   <elementGuidId>9be57299-0183-48ad-80e7-3baeb41de876</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#ffInput_attachments</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='ffInput_attachments']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Piggy Bank</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>3f4d30af-0575-442e-9db8-4219719a9fc9</testSuiteGuid>
+   <testCaseLink>
+      <guid>3e03375c-5fa1-4fa6-8ab8-980e02462772</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Piggy Bank</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>dcdeaf40-2145-4f09-8802-28b2cff810f5</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Piggy Bank Data</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>dcdeaf40-2145-4f09-8802-28b2cff810f5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>name</value>
+         <variableId>27d5d9c8-f080-4363-adfc-377852708af9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dcdeaf40-2145-4f09-8802-28b2cff810f5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>target_amount</value>
+         <variableId>65eee7ef-fb8c-427e-9b96-251db90e0abc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dcdeaf40-2145-4f09-8802-28b2cff810f5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>save_on_account</value>
+         <variableId>bd896516-3773-4de8-8c46-e58ef047cd48</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dcdeaf40-2145-4f09-8802-28b2cff810f5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>target_date</value>
+         <variableId>d672972e-28d3-4691-8bf0-7fbaae367153</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dcdeaf40-2145-4f09-8802-28b2cff810f5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>notes</value>
+         <variableId>d1bef3cf-7b6e-4f05-a4e9-6db6f81fb16f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dcdeaf40-2145-4f09-8802-28b2cff810f5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>attachment</value>
+         <variableId>93f9b475-cbaf-41c6-ae91-fc56b0002297</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>dcdeaf40-2145-4f09-8802-28b2cff810f5</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>group</value>
+         <variableId>1a8aca13-21fe-4b31-bfb3-33cd3e73f5e4</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
