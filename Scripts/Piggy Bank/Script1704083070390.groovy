@@ -29,7 +29,7 @@ WebUI.sendKeys(findTestObject('Object Repository/Piggy Bank/Page_Login to Firefl
 
 WebUI.click(findTestObject('Object Repository/Piggy Bank/Page_Whats playing  Firefly III/a_Piggy banks'))
 
-WebUI.click(findTestObject('Object Repository/Piggy Bank/Page_Piggy banks  Firefly III/a_Create new piggy bank'))
+WebUI.click(findTestObject('Piggy Bank/Page_Piggy banks  Firefly III/a_Create new piggy bank'))
 
 WebUI.setText(findTestObject('Object Repository/Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/input_name'), name)
 
@@ -54,16 +54,20 @@ WebUI.click(findTestObject('Object Repository/Piggy Bank/Page_New piggy bank  Pi
 WebUI.click(findTestObject('Object Repository/Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/button_Store new piggy bank'))
 
 try {
-	WebUI.verifyElementPresent(findTestObject('Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/text_dangers'), 1)
-	WebUI.verifyElementNotPresent(findTestObject('Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/success_alert'), 1)
-	System.out.println("text danger");
-} catch(err) {
-	WebUI.verifyElementPresent(findTestObject('Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/success_alert'), 1)
-	System.out.println("success");
+    WebUI.verifyElementPresent(findTestObject('Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/text_dangers'), 
+        1)
+
+    WebUI.verifyElementNotPresent(findTestObject('Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/success_alert'), 
+        1)
+
+    System.out.println('text danger')
 }
+catch (def err) {
+    WebUI.verifyElementPresent(findTestObject('Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/success_alert'), 
+        1)
+
+    System.out.println('success')
+} 
 
 WebUI.closeBrowser()
-
-
-
 

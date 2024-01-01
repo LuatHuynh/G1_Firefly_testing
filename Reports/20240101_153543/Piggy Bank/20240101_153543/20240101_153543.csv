@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Piggy Bank,Chrome 120.0.0.0,,,01-01-2024 15:35:48,01-01-2024 15:36:00,11.998s,FAILED
+,,,,,,,
+Test Cases/Piggy Bank,Chrome 120.0.0.0,,,01-01-2024 15:35:49,01-01-2024 15:35:55,6.498s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,01-01-2024 15:35:49,01-01-2024 15:35:51,2.038s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/login"")",Chrome 120.0.0.0,,,01-01-2024 15:35:51,01-01-2024 15:35:55,3.541s,PASSED
+"setText(findTestObject(""Object Repository/Piggy Bank/Page_Login to Firefly III/input_email""), username)",Chrome 120.0.0.0,,,01-01-2024 15:35:55,01-01-2024 15:35:55,0.380s,FAILED
+,,,,,,,
+Test Cases/Piggy Bank,Chrome 120.0.0.0,,,01-01-2024 15:35:55,01-01-2024 15:36:00,4.991s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,01-01-2024 15:35:55,01-01-2024 15:35:57,1.247s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/login"")",Chrome 120.0.0.0,,,01-01-2024 15:35:57,01-01-2024 15:36:00,3.310s,PASSED
+"setText(findTestObject(""Object Repository/Piggy Bank/Page_Login to Firefly III/input_email""), username)",Chrome 120.0.0.0,,,01-01-2024 15:36:00,01-01-2024 15:36:00,0.364s,FAILED

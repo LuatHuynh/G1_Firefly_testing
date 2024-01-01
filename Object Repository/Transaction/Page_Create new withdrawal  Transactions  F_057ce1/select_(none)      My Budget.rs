@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_(none)      My Budget</name>
+   <tag></tag>
+   <elementGuidId>877932bc-4ffc-4fb5-a4ec-28d54ad5376e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@name='budget[]']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>select[name=&quot;budget[]&quot;]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>b944edbd-0d29-4528-b8a7-2399906290bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Budget</value>
+      <webElementGuid>c9c87a95-3891-4e75-8e54-7a9369114c81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>budget[]</value>
+      <webElementGuid>e6d0366e-ae3b-4dd3-8e4d-d4a307aaaa01</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>b3f391c5-b3be-4c9c-b4b4-1fe47c5d0cae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>(none)
+      My Budget
+      </value>
+      <webElementGuid>0d0372a3-e20e-42f9-8bd4-93e27d569d8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;optional-info&quot;)/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-12&quot;]/select[@class=&quot;form-control&quot;]</value>
+      <webElementGuid>59fd0dc1-8286-4a00-bffe-989b408a3e00</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@name='budget[]']</value>
+      <webElementGuid>068f6b17-e0ea-45a4-ad18-76709e007ae7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='optional-info']/div/div[2]/select</value>
+      <webElementGuid>777c1143-d38f-4468-b0c7-61e4e5945997</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/div[2]/select</value>
+      <webElementGuid>24bcafa0-0add-492f-8d4e-ea518b18508e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@title = 'Budget' and @name = 'budget[]' and (text() = '(none)
+      My Budget
+      ' or . = '(none)
+      My Budget
+      ')]</value>
+      <webElementGuid>a47b6fe6-7d36-4366-a192-a5d055893c8e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
