@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Budget,Chrome 120.0.0.0,,,01-01-2024 16:05:40,01-01-2024 16:06:00,19.928s,ERROR
+,,,,,,,
+Test Cases/Budget,Chrome 120.0.0.0,,,01-01-2024 16:05:54,01-01-2024 16:06:00,5.607s,ERROR
+"openBrowser("""")",Chrome 120.0.0.0,,,01-01-2024 16:05:54,01-01-2024 16:05:55,0.969s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/login"")",Chrome 120.0.0.0,,,01-01-2024 16:05:55,01-01-2024 16:05:56,0.457s,PASSED
+"setText(findTestObject(""Object Repository/Budget/Page_Login to Firefly III/input_email""), ""khoacraphotograph@gmail.com"")",Chrome 120.0.0.0,,,01-01-2024 16:05:56,01-01-2024 16:05:56,0.852s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Budget/Page_Login to Firefly III/input_password""), ""krbqsEPTyj+/ySZvycc2bfHXjZyOJWOA"")",Chrome 120.0.0.0,,,01-01-2024 16:05:56,01-01-2024 16:05:57,0.347s,PASSED
+"click(findTestObject(""Object Repository/Budget/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,01-01-2024 16:05:57,01-01-2024 16:05:58,1.129s,PASSED
+"click(findTestObject(""Object Repository/Budget/Page_Whats playing  Firefly III/a_Budgets""))",Chrome 120.0.0.0,,,01-01-2024 16:05:58,01-01-2024 16:05:59,0.988s,PASSED
+"click(findTestObject(""Object Repository/Budget/Page_Budgets  Firefly III/a_New budget""))",Chrome 120.0.0.0,,,01-01-2024 16:05:59,01-01-2024 16:06:00,0.831s,PASSED
+"setText(findTestObject(""Object Repository/Budget/Page_Create a new budget  Budgets  Firefly III/input_name""), Name)",Chrome 120.0.0.0,,,01-01-2024 16:06:00,01-01-2024 16:06:00,0.018s,ERROR

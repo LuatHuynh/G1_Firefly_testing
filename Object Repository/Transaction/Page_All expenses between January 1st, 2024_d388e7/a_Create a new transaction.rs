@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Create a new transaction</name>
+   <tag></tag>
+   <elementGuidId>b1667783-b54d-481d-be6a-2dc0f31574ff</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='app']/div/section[2]/div[3]/div/div/div[2]/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-success</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>c6bc8f62-e502-4daf-844d-582da8142376</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://firefly.buudadawg.online/transactions/create/withdrawal</value>
+      <webElementGuid>016ae30a-f161-401b-8337-e0928484e6de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-success</value>
+      <webElementGuid>54de0f8c-793a-4cfe-a485-0d3515118afd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Create a new transaction</value>
+      <webElementGuid>171d0500-1f8a-4e26-87ac-454b2e6a26eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;app&quot;)/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-10 col-md-10 col-sm-12&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;box-body no-padding&quot;]/div[1]/a[@class=&quot;btn btn-success&quot;]</value>
+      <webElementGuid>b9242029-8251-49a3-97d5-3883bc4cf942</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='app']/div/section[2]/div[3]/div/div/div[2]/div/a</value>
+      <webElementGuid>5b30c4e1-1b87-41ba-87d9-d07ca71ca826</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Create a new transaction')]</value>
+      <webElementGuid>927dfebe-b3bf-4f20-b7b4-e736c89b85e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://firefly.buudadawg.online/transactions/create/withdrawal')]</value>
+      <webElementGuid>39785609-625a-478c-8e86-6427092ab576</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/a</value>
+      <webElementGuid>22b58696-aebe-4108-b9bd-ef04463b9f59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://firefly.buudadawg.online/transactions/create/withdrawal' and (text() = ' Create a new transaction' or . = ' Create a new transaction')]</value>
+      <webElementGuid>c4169e46-113f-4d21-ac22-1d88adef44f9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
