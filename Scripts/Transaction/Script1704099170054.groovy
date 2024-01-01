@@ -23,7 +23,7 @@ WebUI.navigateToUrl('https://firefly.buudadawg.online/login')
 
 WebUI.setText(findTestObject('Object Repository/Transaction/Page_Login to Firefly III/input_email'), GlobalVariable.username)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Transaction/Page_Login to Firefly III/input_password'), GlobalVariable.password)
+WebUI.setText(findTestObject('Object Repository/Transaction/Page_Login to Firefly III/input_password'), GlobalVariable.password)
 
 WebUI.sendKeys(findTestObject('Object Repository/Transaction/Page_Login to Firefly III/input_password'), Keys.chord(Keys.ENTER))
 
@@ -48,8 +48,8 @@ WebUI.setText(findTestObject('Object Repository/Transaction/Page_Create new with
 
 if (WebUI.getText(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/select_foreign_currency')) == 
 '') {
-    System.out.println('select 0') //    WebUI.setText(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/input_foreign_amount'), 
-    //        foreign_amount)
+    System.out.println('select 0' //    WebUI.setText(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/input_foreign_amount'), 
+        ) //        foreign_amount)
 }
 
 try {
@@ -86,17 +86,14 @@ catch (def err) {
 WebUI.click(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/button_Submit'))
 
 try {
-    WebUI.verifyElementPresent(findTestObject('Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/text_dangers'), 
-        1)
+    WebUI.verifyElementPresent(findTestObject('Shared_alert/text_dangers'), 1)
 
-    WebUI.verifyElementNotPresent(findTestObject('Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/success_alert'), 
-        1)
+    WebUI.verifyElementNotPresent(findTestObject('Shared_alert/success_alert'), 1)
 
     System.out.println('text danger')
 }
 catch (def err) {
-    WebUI.verifyElementPresent(findTestObject('Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/success_alert'), 
-        1)
+    WebUI.verifyElementPresent(findTestObject('Shared_alert/success_alert'), 1)
 
     System.out.println('success')
 } 
