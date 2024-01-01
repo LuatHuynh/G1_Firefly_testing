@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Budgets</name>
+   <tag></tag>
+   <elementGuidId>087719d9-b6ea-482a-b1e7-1e98af06563c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='budget-menu']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#budget-menu > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>dfd65320-a11a-45da-85f3-e6e9061c4852</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://firefly.buudadawg.online/budgets</value>
+      <webElementGuid>276ceb27-0662-4248-8435-53eb9d9728bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            
+            Budgets
+        </value>
+      <webElementGuid>cb09bf87-30fb-4956-be85-32fd7de264d1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;budget-menu&quot;)/a[1]</value>
+      <webElementGuid>81afe790-1878-4d2e-a77f-24ac96998d4c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='budget-menu']/a</value>
+      <webElementGuid>6d67eda7-09e1-423d-b96f-08218caa9c99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://firefly.buudadawg.online/budgets')]</value>
+      <webElementGuid>8d3019a6-5f1c-4ff8-80da-b648ffd6b7ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a</value>
+      <webElementGuid>4faffbcc-53e5-41f1-acb1-34cfba82b961</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://firefly.buudadawg.online/budgets' and (text() = '
+            
+            Budgets
+        ' or . = '
+            
+            Budgets
+        ')]</value>
+      <webElementGuid>42fae05e-996b-4af2-a21a-93a2eb924c1c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
