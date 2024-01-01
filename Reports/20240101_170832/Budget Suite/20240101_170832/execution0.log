@@ -4445,3 +4445,4 @@ groovy.lang.MissingPropertyException: No such property: Auto for class: Script17
   <property name="startLine">28</property>
   <property name="stepIndex">5</property>
 </record>
+</log>

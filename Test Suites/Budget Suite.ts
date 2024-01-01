@@ -5,7 +5,7 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
@@ -22,7 +22,7 @@
          <masked>false</masked>
          <name>Currency</name>
       </iterationNameVariable>
-      <testCaseId>Test Cases/Budget_testcase/Budget</testCaseId>
+      <testCaseId>Test Cases/Budget</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
          <id>c87ad045-853c-4924-873c-eca61a700d1e</id>
@@ -62,6 +62,12 @@
          <type>DATA_COLUMN</type>
          <value>Auto-budget_period</value>
          <variableId>57987cc4-0dea-46d2-8e9e-1d124dff4c4b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>3971ab31-1e31-4412-ab41-b461cfb42613</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

@@ -16,6 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.nio.file.Paths
+
 
 WebUI.openBrowser('')
 
@@ -44,16 +46,28 @@ WebUI.setText(findTestObject('Object Repository/Budget/Page_Create a new budget 
 WebUI.selectOptionByLabel(findTestObject('Object Repository/Budget/Page_Create a new budget  Budgets  Firefly III/select_DailyWeeklyMonthlyQuarterlyEvery hal_69941c'), 
     Auto_budget_period, true)
 
+System.out.println(attachments)
+if (attachments ) {
+    String absolutePath = Paths.get(attachments).toAbsolutePath().normalize().toString()
+
+    WebUI.uploadFile(findTestObject('Create a new asset account/Page_Create a new asset account  Accounts  _ced620/upload file'), 
+        absolutePath)
+}
+
 WebUI.click(findTestObject('Object Repository/Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget'))
 
 try {
-//	WebUI.verifyElementPresent(findTestObject('Budget/Page_Create piggy bank  Piggy banks  Firefly III/text_dangers'), 1)	
-	WebUI.verifyElementNotPresent(findTestObject('Object Repository/Budget/Page_Create a new budget  Budgets  Firefly III/success'), 1)
-	System.out.println("text danger");
-} catch(err) {
-//	WebUI.verifyElementPresent(findTestObject('Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/success_alert'), 1)
-	System.out.println("success");
+    WebUI.verifyElementPresent(findTestObject('Shared_alert/text_dangers'), 1)
+
+    WebUI.verifyElementNotPresent(findTestObject('Shared_alert/success_alert_budget'), 1)
+
+    System.out.println('text danger')
 }
+catch (def err) {
+    WebUI.verifyElementPresent(findTestObject('Shared_alert/success_alert_budget'), 1)
+
+    System.out.println('success')
+} 
 
 WebUI.closeBrowser()
 
