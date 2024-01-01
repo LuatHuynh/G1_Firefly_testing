@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create a new asset account</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7604b0e3-69bf-49f9-bf69-67be8277186f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>7d2cea90-24df-49f3-84fe-666aa9bcc786</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7d2cea90-24df-49f3-84fe-666aa9bcc786</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+</TestCaseEntity>
