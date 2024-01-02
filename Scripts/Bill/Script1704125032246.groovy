@@ -65,5 +65,19 @@ WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills
 
 WebUI.click(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/button_Store new bill'))
 
+try {
+	WebUI.verifyElementPresent(findTestObject('Shared_alert/text_dangers'), 1)
+
+	WebUI.verifyElementNotPresent(findTestObject('Object Repository/Shared_alert/success_alert_bill'), 1)
+
+	System.out.println('text danger')
+}
+catch (def err) {
+	assert WebUI.verifyElementPresent(findTestObject('Shared_alert/success_alert_budget'), 1)==true 
+
+	System.out.println('success')
+}
+
+
 WebUI.closeBrowser()
 
