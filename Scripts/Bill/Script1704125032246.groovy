@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.nio.file.Paths as Paths
 
 WebUI.openBrowser('')
 
@@ -37,13 +38,29 @@ WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills
 
 WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_max'), max_amount)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/select_dailyweeklymonthlyquarterlyevery hal_79c7c6'), 
+WebUI.setText(findTestObject('Bill/Page_Create new bill  Bills  Firefly III/input_date'), date)
+
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/select_dailyweeklymonthlyquarterlyevery hal_79c7c6'), 
     repeats, true)
 
 WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_skip'), skip)
 
-WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/textarea_notes'), notes)
+WebUI.setText(findTestObject('Bill/Page_Create new bill  Bills  Firefly III/input_end_date'), end_date)
 
+WebUI.setText(findTestObject('Bill/Page_Create new bill  Bills  Firefly III/input_extension_date'), extension_date)
+
+WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/textarea_notes'), notes)
+var isFileLimit=false
+if (attachments) {
+	String absolutePath = Paths.get(attachments).toAbsolutePath().normalize().toString()
+	WebUI.uploadFile(findTestObject('Create a new asset account/Page_Create a new asset account  Accounts  _ced620/upload file'),
+		absolutePath)
+
+}
+if (attachments=="Attachments File/Report_65MB.csv") {
+	assert isFileLimit==true 
+}
+ 
 WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_object_group'), group)
 
 WebUI.click(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/button_Store new bill'))

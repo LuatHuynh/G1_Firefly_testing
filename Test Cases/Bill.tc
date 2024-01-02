@@ -100,7 +100,7 @@
       <name>date</name>
    </variable>
    <variable>
-      <defaultValue>'Daily'</defaultValue>
+      <defaultValue>'daily'</defaultValue>
       <description></description>
       <id>192476a9-298e-4360-b357-6e730a4423d3</id>
       <masked>false</masked>
