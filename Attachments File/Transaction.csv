@@ -1,0 +1,11 @@
+description,source_account,destination_account,date,amount,foreign_amount,budget,category,piggy_bank,tags,bill
+Books,My Savings Account,My Savings Account,2023-03-06T19:32,964,0.01,(none),RF Shielding,0,Wine - George Duboeuf Rose,(none)
+n/a,My Savings Account,My Asset Account,2023-10-28T07:25,8097,0.01,My Budget,EIFS,46,Country Roll,Name
+Real Estate Investment Trusts,My Savings Account,My Expense Account,2023-04-17T15:32,4425,0.0,My Budget,Framing (Steel),46,,Name
+Miscellaneous manufacturing industries,My Savings Account,My Asset Account,2023-04-23T10:28,4080,0.01,(none),Retaining Wall and Brick Pavers,0,,(none)
+Auto Manufacturing,My Asset Account,My Savings Account,2023-12-17T18:10,7394,0.0,(none),,46,,Name
+Major Chemicals,My Savings Account,My Savings Account,2023-04-26T16:53,8704,0.01,(none),,0,Russian Prince,Name
+n/a,My Asset Account,My Expense Account,2023-06-17T18:57,3360,0.0,My Budget,,46,,(none)
+n/a,My Savings Account,My Expense Account,2023-10-27T23:06,4373,0.0,My Budget,Framing (Steel),46,,Name
+Computer Manufacturing,My Savings Account,My Asset Account,2023-01-31T21:20,7863,0.01,(none),,46,Mayonnaise - Individual Pkg,(none)
+n/a,My Savings Account,My Expense Account,2023-05-17T10:03,9532,0.0,(none),,0,Roe - Flying Fish,Name

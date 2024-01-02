@@ -27,8 +27,8 @@
          <combinationType>ONE</combinationType>
          <id>c87ad045-853c-4924-873c-eca61a700d1e</id>
          <iterationEntity>
-            <iterationType>ALL</iterationType>
-            <value></value>
+            <iterationType>RANGE</iterationType>
+            <value>1-10</value>
          </iterationEntity>
          <testDataId>Data Files/Budget Data</testDataId>
       </testDataLink>
@@ -36,37 +36,37 @@
       <variableLink>
          <testDataLinkId>c87ad045-853c-4924-873c-eca61a700d1e</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>﻿Name</value>
+         <value>name</value>
          <variableId>3f5abdeb-c448-4528-8cd8-d28fe9265c3b</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>c87ad045-853c-4924-873c-eca61a700d1e</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Auto-budget</value>
+         <value>auto_budget</value>
          <variableId>07c405c8-322e-44c9-88c9-8351363ac038</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>c87ad045-853c-4924-873c-eca61a700d1e</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Auto-budget_amount</value>
+         <value>auto_budget_amount</value>
          <variableId>ea5565ae-4c90-4069-ace5-c5d6b4257787</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>c87ad045-853c-4924-873c-eca61a700d1e</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Currency</value>
+         <value>currency</value>
          <variableId>79320f3d-0491-418c-aa57-20c22102d545</variableId>
       </variableLink>
       <variableLink>
          <testDataLinkId>c87ad045-853c-4924-873c-eca61a700d1e</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Auto-budget_period</value>
+         <value>auto_budget_period</value>
          <variableId>57987cc4-0dea-46d2-8e9e-1d124dff4c4b</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>c87ad045-853c-4924-873c-eca61a700d1e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>attachments</value>
          <variableId>3971ab31-1e31-4412-ab41-b461cfb42613</variableId>
       </variableLink>
    </testCaseLink>

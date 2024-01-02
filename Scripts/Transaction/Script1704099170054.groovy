@@ -53,10 +53,8 @@ if (WebUI.getText(findTestObject('Object Repository/Transaction/Page_Create new 
 }
 
 try {
-    WebUI.waitForElementPresent(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/select_(none)      My Budget', 
-            0.5))
-
-    WebUI.selectOptionByLabel(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/select_(none)      My Budget'), 
+	WebUI.waitForElementPresent(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/select_budget', 1))
+    WebUI.selectOptionByLabel(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/select_budget'), 
         budget, true)
 }
 catch (def err) {
@@ -66,17 +64,16 @@ catch (def err) {
 WebUI.setText(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/input_category'), 
     category)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/select_(no piggy bank)                  1 (_6b16ef'), 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/select_piggy_bank'), 
     piggy_bank, true)
 
 WebUI.setText(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/input_ti-new-tag-input ti-valid'), 
     tags)
 
 try {
-    WebUI.waitForElementPresent(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/select_(none)      Name'), 
-        0.5)
+    WebUI.waitForElementPresent(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/select_bill'), 1)
 
-    WebUI.selectOptionByLabel(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/select_(none)      Name'), 
+    WebUI.selectOptionByLabel(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/select_bill'), 
         bill, true)
 }
 catch (def err) {

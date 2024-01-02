@@ -1,0 +1,25 @@
+﻿name,currency,liability_type,i_owe_amount,liability_in/out,start_date_of_debt,interest,interest_period,iban,bic,account_number,include_in_net_worth,notes,attachments
+esummerson0,8,12,6846.63,credit,23/3/2023,85.47,daily,ES45 4890 8415 9227 0261 1594,ZVPGVENE96R,5048370000000000,TRUE,"Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin risus. Praesent lectus.
+
+Vestibulum quam sapien, varius ut, blandit non, interdum in, ante. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis faucibus accumsan odio. Curabitur convallis.
+
+Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.",Attachments File/Report_1MB.csv
+skerrod1,1,9,1965.48,debit,19/12/2023,69.19,monthly,IS19 4000 9077 3907 2188 7253 31,VPUCXK30W0Z,5100150000000000,TRUE,,Attachments File/Report_1MB.csv
+rmatias2,8,9,4806.72,debit,5/7/2023,90.53,daily,,CEZMEK0H3P0,4753800000000,TRUE,"In congue. Etiam justo. Etiam pretium iaculis justo.
+
+In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+
+Nulla ut erat id mauris vulputate elementum. Nullam varius. Nulla facilisi.",
+zpottes3,1,9,6977.15,debit,2/6/2023,9.74,daily,GL24 7254 8918 5669 26,,,TRUE,"Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",Attachments File/Report_65MB.csv
+,8,11,3627.43,credit,19/5/2023,48.05,daily,FR72 2402 8886 56OE UCBV T4TV Y53,,4017950000000,TRUE,,
+,1,9,7473.38,debit,21/9/2023,99,yearly,,,5100180000000000,TRUE,"Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet. Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis.",Attachments File/Report_1MB.csv
+ncane6,1,11,1948.32,debit,16/6/2023,82.19,yearly,PK40 HTEL HGHL FCEG 59QR HLT0,,,TRUE,,
+aellard7,1,9,704.31,credit,18/11/2023,13.26,monthly,,MIKXKPGFYOQ,,FALSE,,
+mlamberts8,1,12,6802.66,credit,4/2/2023,28.5,yearly,,VVBNGXZ4751,,FALSE,"Integer ac leo. Pellentesque ultrices mattis odio. Donec vitae nisi.
+
+Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus. Nulla suscipit ligula in lacus.",
+gkluger9,1,9,313.72,debit,9/12/2023,30.22,monthly,NO45 8790 3992 622,,,FALSE,"Praesent id massa id nisl venenatis lacinia. Aenean sit amet justo. Morbi ut odio.
+
+Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.",

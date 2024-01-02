@@ -11,10 +11,10 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Create new piggy bank')]</value>
+         <value>//div[@id='app']/div/section[2]/div/div/div/div[2]/div/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>2ce3b6f9-56cd-45d7-9c19-4fc02a7fd088</webElementGuid>
+      <webElementGuid>88d3bd61-4565-4b0b-8ed4-7c1627c47e21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-success</value>
-      <webElementGuid>539a179c-8335-47d7-9e79-3cad485cbe8b</webElementGuid>
+      <webElementGuid>48f1f015-2c7b-4fbd-9869-f4f5f8a2b250</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>https://firefly.buudadawg.online/piggy-banks/create</value>
-      <webElementGuid>8bf7267b-babb-41a4-8c3a-3c5c451e1dea</webElementGuid>
+      <webElementGuid>59eb3f1c-3658-454e-87db-b0080259a019</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Create new piggy bank</value>
-      <webElementGuid>5546456c-145c-4543-bdf5-cf60a6084abc</webElementGuid>
+      <webElementGuid>ee4c7fa8-2805-4462-a8b2-d202fa0e31b2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;app&quot;)/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12 col-md-12 col-sm-12&quot;]/div[@class=&quot;box&quot;]/div[@class=&quot;box-body no-padding&quot;]/div[1]/a[@class=&quot;btn btn-success&quot;]</value>
-      <webElementGuid>379a5cf7-4b2e-4511-a82e-f7136734e1c7</webElementGuid>
+      <webElementGuid>ded0b29f-418d-4826-81d8-7be935f554fc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='app']/div/section[2]/div/div/div/div[2]/div/a</value>
-      <webElementGuid>8b2adee5-7480-4570-8c25-c13531a4352d</webElementGuid>
+      <webElementGuid>c7b42c0f-c24e-4ab3-8c50-167896c28722</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Create new piggy bank')]</value>
-      <webElementGuid>db8a6548-d7d6-4ca8-818d-5bdab27a2b62</webElementGuid>
+      <webElementGuid>bd2b5a2c-2fed-4cc5-86f4-3691afc296b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, 'https://firefly.buudadawg.online/piggy-banks/create')]</value>
-      <webElementGuid>0d19d2cb-d839-4a6b-95c6-3d006f651516</webElementGuid>
+      <webElementGuid>8c18d09d-8099-4762-9d39-95337592966a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/a</value>
-      <webElementGuid>d92ebbd9-3dee-42da-bb55-b5b0bebf826f</webElementGuid>
+      <webElementGuid>dfcf160e-5a1f-43f9-9e9c-7015474beb31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'https://firefly.buudadawg.online/piggy-banks/create' and (text() = ' Create new piggy bank' or . = ' Create new piggy bank')]</value>
-      <webElementGuid>79fe3d10-032f-4c82-8590-b530c21b57d2</webElementGuid>
+      <webElementGuid>89039071-22b0-4fa3-8f74-95ecd57bf68e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

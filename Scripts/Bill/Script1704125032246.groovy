@@ -16,6 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import java.nio.file.Paths as Paths
 
 WebUI.openBrowser('')
 
@@ -31,24 +32,57 @@ WebUI.click(findTestObject('Object Repository/Bill/Page_Whats playing  Firefly I
 
 WebUI.click(findTestObject('Object Repository/Bill/Page_Bills  Firefly III/a_Create new bill'))
 
-WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_name'), 'mybill')
+WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_name'), name)
 
-WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_min'), '200')
+WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_min'), min_amount)
 
-WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_max'), '220')
+WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_max'), max_amount)
 
-WebUI.selectOptionByValue(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/select_dailyweeklymonthlyquarterlyevery hal_79c7c6'), 
-    'daily', true)
+WebUI.setText(findTestObject('Bill/Page_Create new bill  Bills  Firefly III/input_date'), date)
 
-WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_skip'), '1')
+WebUI.selectOptionByLabel(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/select_dailyweeklymonthlyquarterlyevery hal_79c7c6'), 
+    repeats, true)
 
-WebUI.click(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/div_End date                               _48239d'))
+WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_skip'), skip)
 
-WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/textarea_notes'), 'my bill note ')
+WebUI.setText(findTestObject('Bill/Page_Create new bill  Bills  Firefly III/input_end_date'), end_date)
 
-WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_object_group'), 'bill')
+WebUI.setText(findTestObject('Bill/Page_Create new bill  Bills  Firefly III/input_extension_date'), extension_date)
+
+WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/textarea_notes'), notes)
+var isFileLimit=false
+if (attachments) {
+	String absolutePath = Paths.get(attachments).toAbsolutePath().normalize().toString()
+	WebUI.uploadFile(findTestObject('Create a new asset account/Page_Create a new asset account  Accounts  _ced620/upload file'),
+		absolutePath)
+
+}
+if (attachments=="Attachments File/Report_65MB.csv") {
+	assert isFileLimit==true 
+}
+
+
+
+WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_object_group'), group)
 
 WebUI.click(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/button_Store new bill'))
+
+try {
+	WebUI.verifyElementPresent(findTestObject('Shared_alert/text_dangers'), 1)
+
+	WebUI.verifyElementNotPresent(findTestObject('Object Repository/Shared_alert/success_alert_bill'), 1)
+
+	System.out.println('text danger')
+}
+catch (def err) {
+	assert WebUI.verifyElementPresent(findTestObject('Shared_alert/success_alert_budget'), 1)==true 
+
+	System.out.println('success')
+}
+if(max_amount!="" && min_amount!="" ) {
+	assert Float.parseFloat(max_amount)>= Float.parseFloat(min_amount)
+	
+}
 
 WebUI.closeBrowser()
 

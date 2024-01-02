@@ -1,0 +1,256 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Bill Suite,Chrome 120.0.0.0,,,02-01-2024 11:33:56,02-01-2024 11:36:48,2m - 51.494s,FAILED
+,,,,,,,
+Test Cases/Bill,Chrome 120.0.0.0,,,02-01-2024 11:33:57,02-01-2024 11:34:15,18.758s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 11:33:57,02-01-2024 11:33:59,1.579s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/login"")",Chrome 120.0.0.0,,,02-01-2024 11:33:59,02-01-2024 11:33:59,0.541s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/input_email""), ""khoacraphotograph@gmail.com"")",Chrome 120.0.0.0,,,02-01-2024 11:33:59,02-01-2024 11:34:00,0.795s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/input_password""), ""krbqsEPTyj+/ySZvycc2bfHXjZyOJWOA"")",Chrome 120.0.0.0,,,02-01-2024 11:34:00,02-01-2024 11:34:00,0.361s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,02-01-2024 11:34:00,02-01-2024 11:34:01,0.987s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Whats playing  Firefly III/a_Bills""))",Chrome 120.0.0.0,,,02-01-2024 11:34:01,02-01-2024 11:34:02,1.113s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Bills  Firefly III/a_Create new bill""))",Chrome 120.0.0.0,,,02-01-2024 11:34:02,02-01-2024 11:34:03,0.800s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_name""), name)",Chrome 120.0.0.0,,,02-01-2024 11:34:03,02-01-2024 11:34:04,0.809s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_min""), min_amount)",Chrome 120.0.0.0,,,02-01-2024 11:34:04,02-01-2024 11:34:05,0.620s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_max""), max_amount)",Chrome 120.0.0.0,,,02-01-2024 11:34:05,02-01-2024 11:34:05,0.613s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_date""), date)",Chrome 120.0.0.0,,,02-01-2024 11:34:05,02-01-2024 11:34:06,0.591s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/select_dailyweeklymonthlyquarterlyevery hal_79c7c6""), repeats, true)",Chrome 120.0.0.0,,,02-01-2024 11:34:06,02-01-2024 11:34:07,0.952s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_skip""), skip)",Chrome 120.0.0.0,,,02-01-2024 11:34:07,02-01-2024 11:34:07,0.606s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_end_date""), end_date)",Chrome 120.0.0.0,,,02-01-2024 11:34:07,02-01-2024 11:34:08,0.580s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_extension_date""), extension_date)",Chrome 120.0.0.0,,,02-01-2024 11:34:08,02-01-2024 11:34:09,0.610s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/textarea_notes""), notes)",Chrome 120.0.0.0,,,02-01-2024 11:34:09,02-01-2024 11:34:10,1.439s,PASSED
+isFileLimit = false,Chrome 120.0.0.0,,,02-01-2024 11:34:10,02-01-2024 11:34:10,0.002s,PASSED
+if (attachments),Chrome 120.0.0.0,,,02-01-2024 11:34:10,02-01-2024 11:34:10,0.322s,PASSED
+"if (attachments == ""Attachments File/Report_65MB.csv"")",Chrome 120.0.0.0,,,02-01-2024 11:34:10,02-01-2024 11:34:10,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_object_group""), group)",Chrome 120.0.0.0,,,02-01-2024 11:34:10,02-01-2024 11:34:11,0.610s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/button_Store new bill""))",Chrome 120.0.0.0,,,02-01-2024 11:34:11,02-01-2024 11:34:12,1.422s,PASSED
+try,Chrome 120.0.0.0,,,02-01-2024 11:34:12,02-01-2024 11:34:15,2.482s,FAILED
+catch (Exception err),Chrome 120.0.0.0,,,02-01-2024 11:34:15,02-01-2024 11:34:15,0.294s,PASSED
+"if (max_amount != """" && min_amount != """")",Chrome 120.0.0.0,,,02-01-2024 11:34:15,02-01-2024 11:34:15,0.007s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,02-01-2024 11:34:15,02-01-2024 11:34:15,0.194s,PASSED
+,,,,,,,
+Test Cases/Bill,Chrome 120.0.0.0,,,02-01-2024 11:34:16,02-01-2024 11:34:30,14.478s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 11:34:16,02-01-2024 11:34:16,0.821s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/login"")",Chrome 120.0.0.0,,,02-01-2024 11:34:16,02-01-2024 11:34:17,0.721s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/input_email""), ""khoacraphotograph@gmail.com"")",Chrome 120.0.0.0,,,02-01-2024 11:34:17,02-01-2024 11:34:18,0.821s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/input_password""), ""krbqsEPTyj+/ySZvycc2bfHXjZyOJWOA"")",Chrome 120.0.0.0,,,02-01-2024 11:34:18,02-01-2024 11:34:18,0.323s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,02-01-2024 11:34:18,02-01-2024 11:34:19,0.575s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Whats playing  Firefly III/a_Bills""))",Chrome 120.0.0.0,,,02-01-2024 11:34:19,02-01-2024 11:34:21,2.153s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Bills  Firefly III/a_Create new bill""))",Chrome 120.0.0.0,,,02-01-2024 11:34:21,02-01-2024 11:34:22,0.800s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_name""), name)",Chrome 120.0.0.0,,,02-01-2024 11:34:22,02-01-2024 11:34:23,0.825s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_min""), min_amount)",Chrome 120.0.0.0,,,02-01-2024 11:34:23,02-01-2024 11:34:23,0.579s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_max""), max_amount)",Chrome 120.0.0.0,,,02-01-2024 11:34:23,02-01-2024 11:34:24,0.572s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_date""), date)",Chrome 120.0.0.0,,,02-01-2024 11:34:24,02-01-2024 11:34:24,0.582s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/select_dailyweeklymonthlyquarterlyevery hal_79c7c6""), repeats, true)",Chrome 120.0.0.0,,,02-01-2024 11:34:24,02-01-2024 11:34:25,0.888s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_skip""), skip)",Chrome 120.0.0.0,,,02-01-2024 11:34:25,02-01-2024 11:34:26,0.589s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_end_date""), end_date)",Chrome 120.0.0.0,,,02-01-2024 11:34:26,02-01-2024 11:34:26,0.561s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_extension_date""), extension_date)",Chrome 120.0.0.0,,,02-01-2024 11:34:26,02-01-2024 11:34:27,0.591s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/textarea_notes""), notes)",Chrome 120.0.0.0,,,02-01-2024 11:34:27,02-01-2024 11:34:30,2.743s,PASSED
+isFileLimit = false,Chrome 120.0.0.0,,,02-01-2024 11:34:30,02-01-2024 11:34:30,0.000s,PASSED
+if (attachments),Chrome 120.0.0.0,,,02-01-2024 11:34:30,02-01-2024 11:34:30,0.300s,PASSED
+"if (attachments == ""Attachments File/Report_65MB.csv"")",Chrome 120.0.0.0,,,02-01-2024 11:34:30,02-01-2024 11:34:30,0.006s,FAILED
+,,,,,,,
+Test Cases/Bill,Chrome 120.0.0.0,,,02-01-2024 11:34:30,02-01-2024 11:34:45,15.364s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 11:34:30,02-01-2024 11:34:31,1.013s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/login"")",Chrome 120.0.0.0,,,02-01-2024 11:34:31,02-01-2024 11:34:32,0.643s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/input_email""), ""khoacraphotograph@gmail.com"")",Chrome 120.0.0.0,,,02-01-2024 11:34:32,02-01-2024 11:34:33,0.832s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/input_password""), ""krbqsEPTyj+/ySZvycc2bfHXjZyOJWOA"")",Chrome 120.0.0.0,,,02-01-2024 11:34:33,02-01-2024 11:34:33,0.335s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,02-01-2024 11:34:33,02-01-2024 11:34:34,0.981s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Whats playing  Firefly III/a_Bills""))",Chrome 120.0.0.0,,,02-01-2024 11:34:34,02-01-2024 11:34:35,1.229s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Bills  Firefly III/a_Create new bill""))",Chrome 120.0.0.0,,,02-01-2024 11:34:35,02-01-2024 11:34:36,0.851s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_name""), name)",Chrome 120.0.0.0,,,02-01-2024 11:34:36,02-01-2024 11:34:37,0.790s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_min""), min_amount)",Chrome 120.0.0.0,,,02-01-2024 11:34:37,02-01-2024 11:34:37,0.576s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_max""), max_amount)",Chrome 120.0.0.0,,,02-01-2024 11:34:37,02-01-2024 11:34:38,0.568s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_date""), date)",Chrome 120.0.0.0,,,02-01-2024 11:34:38,02-01-2024 11:34:39,0.580s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/select_dailyweeklymonthlyquarterlyevery hal_79c7c6""), repeats, true)",Chrome 120.0.0.0,,,02-01-2024 11:34:39,02-01-2024 11:34:39,0.904s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_skip""), skip)",Chrome 120.0.0.0,,,02-01-2024 11:34:39,02-01-2024 11:34:40,0.589s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_end_date""), end_date)",Chrome 120.0.0.0,,,02-01-2024 11:34:40,02-01-2024 11:34:41,0.594s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_extension_date""), extension_date)",Chrome 120.0.0.0,,,02-01-2024 11:34:41,02-01-2024 11:34:41,0.589s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/textarea_notes""), notes)",Chrome 120.0.0.0,,,02-01-2024 11:34:41,02-01-2024 11:34:42,0.824s,PASSED
+isFileLimit = false,Chrome 120.0.0.0,,,02-01-2024 11:34:42,02-01-2024 11:34:42,0.000s,PASSED
+if (attachments),Chrome 120.0.0.0,,,02-01-2024 11:34:42,02-01-2024 11:34:42,0.297s,PASSED
+"if (attachments == ""Attachments File/Report_65MB.csv"")",Chrome 120.0.0.0,,,02-01-2024 11:34:42,02-01-2024 11:34:42,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_object_group""), group)",Chrome 120.0.0.0,,,02-01-2024 11:34:42,02-01-2024 11:34:43,0.590s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/button_Store new bill""))",Chrome 120.0.0.0,,,02-01-2024 11:34:43,02-01-2024 11:34:44,1.447s,PASSED
+try,Chrome 120.0.0.0,,,02-01-2024 11:34:44,02-01-2024 11:34:45,0.861s,PASSED
+"if (max_amount != """" && min_amount != """")",Chrome 120.0.0.0,,,02-01-2024 11:34:45,02-01-2024 11:34:45,0.001s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,02-01-2024 11:34:45,02-01-2024 11:34:45,0.204s,PASSED
+,,,,,,,
+Test Cases/Bill,Chrome 120.0.0.0,,,02-01-2024 11:34:46,02-01-2024 11:35:03,17.362s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 11:34:46,02-01-2024 11:34:46,0.913s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/login"")",Chrome 120.0.0.0,,,02-01-2024 11:34:46,02-01-2024 11:34:47,0.544s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/input_email""), ""khoacraphotograph@gmail.com"")",Chrome 120.0.0.0,,,02-01-2024 11:34:47,02-01-2024 11:34:48,0.844s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/input_password""), ""krbqsEPTyj+/ySZvycc2bfHXjZyOJWOA"")",Chrome 120.0.0.0,,,02-01-2024 11:34:48,02-01-2024 11:34:48,0.334s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,02-01-2024 11:34:48,02-01-2024 11:34:49,0.616s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Whats playing  Firefly III/a_Bills""))",Chrome 120.0.0.0,,,02-01-2024 11:34:49,02-01-2024 11:34:50,1.513s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Bills  Firefly III/a_Create new bill""))",Chrome 120.0.0.0,,,02-01-2024 11:34:50,02-01-2024 11:34:51,0.806s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_name""), name)",Chrome 120.0.0.0,,,02-01-2024 11:34:51,02-01-2024 11:34:52,0.807s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_min""), min_amount)",Chrome 120.0.0.0,,,02-01-2024 11:34:52,02-01-2024 11:34:53,0.572s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_max""), max_amount)",Chrome 120.0.0.0,,,02-01-2024 11:34:53,02-01-2024 11:34:53,0.576s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_date""), date)",Chrome 120.0.0.0,,,02-01-2024 11:34:53,02-01-2024 11:34:54,0.580s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/select_dailyweeklymonthlyquarterlyevery hal_79c7c6""), repeats, true)",Chrome 120.0.0.0,,,02-01-2024 11:34:54,02-01-2024 11:34:55,0.887s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_skip""), skip)",Chrome 120.0.0.0,,,02-01-2024 11:34:55,02-01-2024 11:34:55,0.579s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_end_date""), end_date)",Chrome 120.0.0.0,,,02-01-2024 11:34:55,02-01-2024 11:34:56,0.593s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_extension_date""), extension_date)",Chrome 120.0.0.0,,,02-01-2024 11:34:56,02-01-2024 11:34:56,0.567s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/textarea_notes""), notes)",Chrome 120.0.0.0,,,02-01-2024 11:34:56,02-01-2024 11:34:58,1.268s,PASSED
+isFileLimit = false,Chrome 120.0.0.0,,,02-01-2024 11:34:58,02-01-2024 11:34:58,0.000s,PASSED
+if (attachments),Chrome 120.0.0.0,,,02-01-2024 11:34:58,02-01-2024 11:34:58,0.375s,PASSED
+"if (attachments == ""Attachments File/Report_65MB.csv"")",Chrome 120.0.0.0,,,02-01-2024 11:34:58,02-01-2024 11:34:58,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_object_group""), group)",Chrome 120.0.0.0,,,02-01-2024 11:34:58,02-01-2024 11:34:59,0.580s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/button_Store new bill""))",Chrome 120.0.0.0,,,02-01-2024 11:34:59,02-01-2024 11:35:00,1.585s,PASSED
+try,Chrome 120.0.0.0,,,02-01-2024 11:35:00,02-01-2024 11:35:02,2.338s,FAILED
+catch (Exception err),Chrome 120.0.0.0,,,02-01-2024 11:35:02,02-01-2024 11:35:03,0.277s,PASSED
+"if (max_amount != """" && min_amount != """")",Chrome 120.0.0.0,,,02-01-2024 11:35:03,02-01-2024 11:35:03,0.000s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,02-01-2024 11:35:03,02-01-2024 11:35:03,0.181s,PASSED
+,,,,,,,
+Test Cases/Bill,Chrome 120.0.0.0,,,02-01-2024 11:35:03,02-01-2024 11:35:22,19.327s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 11:35:03,02-01-2024 11:35:04,0.800s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/login"")",Chrome 120.0.0.0,,,02-01-2024 11:35:04,02-01-2024 11:35:04,0.603s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/input_email""), ""khoacraphotograph@gmail.com"")",Chrome 120.0.0.0,,,02-01-2024 11:35:04,02-01-2024 11:35:05,0.839s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/input_password""), ""krbqsEPTyj+/ySZvycc2bfHXjZyOJWOA"")",Chrome 120.0.0.0,,,02-01-2024 11:35:05,02-01-2024 11:35:06,0.331s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,02-01-2024 11:35:06,02-01-2024 11:35:06,0.627s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Whats playing  Firefly III/a_Bills""))",Chrome 120.0.0.0,,,02-01-2024 11:35:06,02-01-2024 11:35:08,2.133s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Bills  Firefly III/a_Create new bill""))",Chrome 120.0.0.0,,,02-01-2024 11:35:08,02-01-2024 11:35:09,0.915s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_name""), name)",Chrome 120.0.0.0,,,02-01-2024 11:35:09,02-01-2024 11:35:10,0.941s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_min""), min_amount)",Chrome 120.0.0.0,,,02-01-2024 11:35:10,02-01-2024 11:35:11,0.629s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_max""), max_amount)",Chrome 120.0.0.0,,,02-01-2024 11:35:11,02-01-2024 11:35:11,0.618s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_date""), date)",Chrome 120.0.0.0,,,02-01-2024 11:35:11,02-01-2024 11:35:12,0.597s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/select_dailyweeklymonthlyquarterlyevery hal_79c7c6""), repeats, true)",Chrome 120.0.0.0,,,02-01-2024 11:35:12,02-01-2024 11:35:13,1.003s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_skip""), skip)",Chrome 120.0.0.0,,,02-01-2024 11:35:13,02-01-2024 11:35:14,0.849s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_end_date""), end_date)",Chrome 120.0.0.0,,,02-01-2024 11:35:14,02-01-2024 11:35:15,0.722s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_extension_date""), extension_date)",Chrome 120.0.0.0,,,02-01-2024 11:35:15,02-01-2024 11:35:15,0.624s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/textarea_notes""), notes)",Chrome 120.0.0.0,,,02-01-2024 11:35:15,02-01-2024 11:35:17,2.141s,PASSED
+isFileLimit = false,Chrome 120.0.0.0,,,02-01-2024 11:35:17,02-01-2024 11:35:17,0.001s,PASSED
+if (attachments),Chrome 120.0.0.0,,,02-01-2024 11:35:17,02-01-2024 11:35:18,0.346s,PASSED
+"if (attachments == ""Attachments File/Report_65MB.csv"")",Chrome 120.0.0.0,,,02-01-2024 11:35:18,02-01-2024 11:35:18,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_object_group""), group)",Chrome 120.0.0.0,,,02-01-2024 11:35:18,02-01-2024 11:35:18,0.610s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/button_Store new bill""))",Chrome 120.0.0.0,,,02-01-2024 11:35:18,02-01-2024 11:35:20,1.329s,PASSED
+try,Chrome 120.0.0.0,,,02-01-2024 11:35:20,02-01-2024 11:35:22,2.317s,FAILED
+catch (Exception err),Chrome 120.0.0.0,,,02-01-2024 11:35:22,02-01-2024 11:35:22,0.285s,PASSED
+"if (max_amount != """" && min_amount != """")",Chrome 120.0.0.0,,,02-01-2024 11:35:22,02-01-2024 11:35:22,0.003s,FAILED
+,,,,,,,
+Test Cases/Bill,Chrome 120.0.0.0,,,02-01-2024 11:35:22,02-01-2024 11:35:42,19.113s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 11:35:22,02-01-2024 11:35:24,1.184s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/login"")",Chrome 120.0.0.0,,,02-01-2024 11:35:24,02-01-2024 11:35:24,0.498s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/input_email""), ""khoacraphotograph@gmail.com"")",Chrome 120.0.0.0,,,02-01-2024 11:35:24,02-01-2024 11:35:25,0.813s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/input_password""), ""krbqsEPTyj+/ySZvycc2bfHXjZyOJWOA"")",Chrome 120.0.0.0,,,02-01-2024 11:35:25,02-01-2024 11:35:25,0.392s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,02-01-2024 11:35:25,02-01-2024 11:35:26,0.731s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Whats playing  Firefly III/a_Bills""))",Chrome 120.0.0.0,,,02-01-2024 11:35:26,02-01-2024 11:35:28,2.150s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Bills  Firefly III/a_Create new bill""))",Chrome 120.0.0.0,,,02-01-2024 11:35:28,02-01-2024 11:35:29,0.860s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_name""), name)",Chrome 120.0.0.0,,,02-01-2024 11:35:29,02-01-2024 11:35:30,0.843s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_min""), min_amount)",Chrome 120.0.0.0,,,02-01-2024 11:35:30,02-01-2024 11:35:31,0.587s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_max""), max_amount)",Chrome 120.0.0.0,,,02-01-2024 11:35:31,02-01-2024 11:35:31,0.600s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_date""), date)",Chrome 120.0.0.0,,,02-01-2024 11:35:31,02-01-2024 11:35:32,0.601s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/select_dailyweeklymonthlyquarterlyevery hal_79c7c6""), repeats, true)",Chrome 120.0.0.0,,,02-01-2024 11:35:32,02-01-2024 11:35:33,0.933s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_skip""), skip)",Chrome 120.0.0.0,,,02-01-2024 11:35:33,02-01-2024 11:35:33,0.591s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_end_date""), end_date)",Chrome 120.0.0.0,,,02-01-2024 11:35:33,02-01-2024 11:35:34,0.596s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_extension_date""), extension_date)",Chrome 120.0.0.0,,,02-01-2024 11:35:34,02-01-2024 11:35:34,0.610s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/textarea_notes""), notes)",Chrome 120.0.0.0,,,02-01-2024 11:35:34,02-01-2024 11:35:36,1.532s,PASSED
+isFileLimit = false,Chrome 120.0.0.0,,,02-01-2024 11:35:36,02-01-2024 11:35:36,0.001s,PASSED
+if (attachments),Chrome 120.0.0.0,,,02-01-2024 11:35:36,02-01-2024 11:35:36,0.287s,PASSED
+"if (attachments == ""Attachments File/Report_65MB.csv"")",Chrome 120.0.0.0,,,02-01-2024 11:35:36,02-01-2024 11:35:36,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_object_group""), group)",Chrome 120.0.0.0,,,02-01-2024 11:35:36,02-01-2024 11:35:37,0.610s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/button_Store new bill""))",Chrome 120.0.0.0,,,02-01-2024 11:35:37,02-01-2024 11:35:39,1.758s,PASSED
+try,Chrome 120.0.0.0,,,02-01-2024 11:35:39,02-01-2024 11:35:41,2.361s,FAILED
+catch (Exception err),Chrome 120.0.0.0,,,02-01-2024 11:35:41,02-01-2024 11:35:41,0.254s,PASSED
+"if (max_amount != """" && min_amount != """")",Chrome 120.0.0.0,,,02-01-2024 11:35:41,02-01-2024 11:35:41,0.000s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,02-01-2024 11:35:41,02-01-2024 11:35:42,0.285s,PASSED
+,,,,,,,
+Test Cases/Bill,Chrome 120.0.0.0,,,02-01-2024 11:35:42,02-01-2024 11:35:57,15.453s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 11:35:42,02-01-2024 11:35:43,0.974s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/login"")",Chrome 120.0.0.0,,,02-01-2024 11:35:43,02-01-2024 11:35:43,0.516s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/input_email""), ""khoacraphotograph@gmail.com"")",Chrome 120.0.0.0,,,02-01-2024 11:35:43,02-01-2024 11:35:44,0.765s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/input_password""), ""krbqsEPTyj+/ySZvycc2bfHXjZyOJWOA"")",Chrome 120.0.0.0,,,02-01-2024 11:35:44,02-01-2024 11:35:44,0.322s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,02-01-2024 11:35:44,02-01-2024 11:35:45,0.595s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Whats playing  Firefly III/a_Bills""))",Chrome 120.0.0.0,,,02-01-2024 11:35:45,02-01-2024 11:35:47,2.053s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Bills  Firefly III/a_Create new bill""))",Chrome 120.0.0.0,,,02-01-2024 11:35:47,02-01-2024 11:35:48,0.847s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_name""), name)",Chrome 120.0.0.0,,,02-01-2024 11:35:48,02-01-2024 11:35:49,0.895s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_min""), min_amount)",Chrome 120.0.0.0,,,02-01-2024 11:35:49,02-01-2024 11:35:49,0.599s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_max""), max_amount)",Chrome 120.0.0.0,,,02-01-2024 11:35:49,02-01-2024 11:35:50,0.560s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_date""), date)",Chrome 120.0.0.0,,,02-01-2024 11:35:50,02-01-2024 11:35:50,0.574s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/select_dailyweeklymonthlyquarterlyevery hal_79c7c6""), repeats, true)",Chrome 120.0.0.0,,,02-01-2024 11:35:50,02-01-2024 11:35:51,0.874s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_skip""), skip)",Chrome 120.0.0.0,,,02-01-2024 11:35:51,02-01-2024 11:35:52,0.599s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_end_date""), end_date)",Chrome 120.0.0.0,,,02-01-2024 11:35:52,02-01-2024 11:35:52,0.572s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_extension_date""), extension_date)",Chrome 120.0.0.0,,,02-01-2024 11:35:52,02-01-2024 11:35:53,0.588s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/textarea_notes""), notes)",Chrome 120.0.0.0,,,02-01-2024 11:35:53,02-01-2024 11:35:54,0.699s,PASSED
+isFileLimit = false,Chrome 120.0.0.0,,,02-01-2024 11:35:54,02-01-2024 11:35:54,0.000s,PASSED
+if (attachments),Chrome 120.0.0.0,,,02-01-2024 11:35:54,02-01-2024 11:35:54,0.304s,PASSED
+"if (attachments == ""Attachments File/Report_65MB.csv"")",Chrome 120.0.0.0,,,02-01-2024 11:35:54,02-01-2024 11:35:54,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_object_group""), group)",Chrome 120.0.0.0,,,02-01-2024 11:35:54,02-01-2024 11:35:55,0.601s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/button_Store new bill""))",Chrome 120.0.0.0,,,02-01-2024 11:35:55,02-01-2024 11:35:56,1.642s,PASSED
+try,Chrome 120.0.0.0,,,02-01-2024 11:35:56,02-01-2024 11:35:57,0.804s,PASSED
+"if (max_amount != """" && min_amount != """")",Chrome 120.0.0.0,,,02-01-2024 11:35:57,02-01-2024 11:35:57,0.002s,FAILED
+,,,,,,,
+Test Cases/Bill,Chrome 120.0.0.0,,,02-01-2024 11:35:57,02-01-2024 11:36:11,13.255s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 11:35:57,02-01-2024 11:35:58,1.068s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/login"")",Chrome 120.0.0.0,,,02-01-2024 11:35:58,02-01-2024 11:35:59,0.491s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/input_email""), ""khoacraphotograph@gmail.com"")",Chrome 120.0.0.0,,,02-01-2024 11:35:59,02-01-2024 11:36:00,0.781s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/input_password""), ""krbqsEPTyj+/ySZvycc2bfHXjZyOJWOA"")",Chrome 120.0.0.0,,,02-01-2024 11:36:00,02-01-2024 11:36:00,0.466s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,02-01-2024 11:36:00,02-01-2024 11:36:01,1.104s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Whats playing  Firefly III/a_Bills""))",Chrome 120.0.0.0,,,02-01-2024 11:36:01,02-01-2024 11:36:02,1.148s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Bills  Firefly III/a_Create new bill""))",Chrome 120.0.0.0,,,02-01-2024 11:36:02,02-01-2024 11:36:03,0.949s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_name""), name)",Chrome 120.0.0.0,,,02-01-2024 11:36:03,02-01-2024 11:36:04,0.916s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_min""), min_amount)",Chrome 120.0.0.0,,,02-01-2024 11:36:04,02-01-2024 11:36:05,0.619s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_max""), max_amount)",Chrome 120.0.0.0,,,02-01-2024 11:36:05,02-01-2024 11:36:05,0.584s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_date""), date)",Chrome 120.0.0.0,,,02-01-2024 11:36:05,02-01-2024 11:36:06,0.590s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/select_dailyweeklymonthlyquarterlyevery hal_79c7c6""), repeats, true)",Chrome 120.0.0.0,,,02-01-2024 11:36:06,02-01-2024 11:36:07,0.905s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_skip""), skip)",Chrome 120.0.0.0,,,02-01-2024 11:36:07,02-01-2024 11:36:07,0.583s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_end_date""), end_date)",Chrome 120.0.0.0,,,02-01-2024 11:36:07,02-01-2024 11:36:08,0.561s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_extension_date""), extension_date)",Chrome 120.0.0.0,,,02-01-2024 11:36:08,02-01-2024 11:36:09,0.590s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/textarea_notes""), notes)",Chrome 120.0.0.0,,,02-01-2024 11:36:09,02-01-2024 11:36:10,1.565s,PASSED
+isFileLimit = false,Chrome 120.0.0.0,,,02-01-2024 11:36:10,02-01-2024 11:36:10,0.000s,PASSED
+if (attachments),Chrome 120.0.0.0,,,02-01-2024 11:36:10,02-01-2024 11:36:11,0.300s,PASSED
+"if (attachments == ""Attachments File/Report_65MB.csv"")",Chrome 120.0.0.0,,,02-01-2024 11:36:11,02-01-2024 11:36:11,0.002s,FAILED
+,,,,,,,
+Test Cases/Bill,Chrome 120.0.0.0,,,02-01-2024 11:36:11,02-01-2024 11:36:30,18.956s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 11:36:11,02-01-2024 11:36:12,1.018s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/login"")",Chrome 120.0.0.0,,,02-01-2024 11:36:12,02-01-2024 11:36:12,0.571s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/input_email""), ""khoacraphotograph@gmail.com"")",Chrome 120.0.0.0,,,02-01-2024 11:36:12,02-01-2024 11:36:13,0.796s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/input_password""), ""krbqsEPTyj+/ySZvycc2bfHXjZyOJWOA"")",Chrome 120.0.0.0,,,02-01-2024 11:36:13,02-01-2024 11:36:13,0.321s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,02-01-2024 11:36:13,02-01-2024 11:36:14,0.923s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Whats playing  Firefly III/a_Bills""))",Chrome 120.0.0.0,,,02-01-2024 11:36:14,02-01-2024 11:36:16,1.327s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Bills  Firefly III/a_Create new bill""))",Chrome 120.0.0.0,,,02-01-2024 11:36:16,02-01-2024 11:36:16,0.755s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_name""), name)",Chrome 120.0.0.0,,,02-01-2024 11:36:16,02-01-2024 11:36:17,0.817s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_min""), min_amount)",Chrome 120.0.0.0,,,02-01-2024 11:36:17,02-01-2024 11:36:18,0.569s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_max""), max_amount)",Chrome 120.0.0.0,,,02-01-2024 11:36:18,02-01-2024 11:36:18,0.575s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_date""), date)",Chrome 120.0.0.0,,,02-01-2024 11:36:18,02-01-2024 11:36:19,0.585s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/select_dailyweeklymonthlyquarterlyevery hal_79c7c6""), repeats, true)",Chrome 120.0.0.0,,,02-01-2024 11:36:19,02-01-2024 11:36:20,0.892s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_skip""), skip)",Chrome 120.0.0.0,,,02-01-2024 11:36:20,02-01-2024 11:36:20,0.608s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_end_date""), end_date)",Chrome 120.0.0.0,,,02-01-2024 11:36:20,02-01-2024 11:36:21,0.603s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_extension_date""), extension_date)",Chrome 120.0.0.0,,,02-01-2024 11:36:21,02-01-2024 11:36:22,0.606s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/textarea_notes""), notes)",Chrome 120.0.0.0,,,02-01-2024 11:36:22,02-01-2024 11:36:24,2.328s,PASSED
+isFileLimit = false,Chrome 120.0.0.0,,,02-01-2024 11:36:24,02-01-2024 11:36:24,0.001s,PASSED
+if (attachments),Chrome 120.0.0.0,,,02-01-2024 11:36:24,02-01-2024 11:36:24,0.300s,PASSED
+"if (attachments == ""Attachments File/Report_65MB.csv"")",Chrome 120.0.0.0,,,02-01-2024 11:36:24,02-01-2024 11:36:24,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_object_group""), group)",Chrome 120.0.0.0,,,02-01-2024 11:36:24,02-01-2024 11:36:25,0.604s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/button_Store new bill""))",Chrome 120.0.0.0,,,02-01-2024 11:36:25,02-01-2024 11:36:27,1.857s,PASSED
+try,Chrome 120.0.0.0,,,02-01-2024 11:36:27,02-01-2024 11:36:29,2.329s,FAILED
+catch (Exception err),Chrome 120.0.0.0,,,02-01-2024 11:36:29,02-01-2024 11:36:29,0.270s,PASSED
+"if (max_amount != """" && min_amount != """")",Chrome 120.0.0.0,,,02-01-2024 11:36:29,02-01-2024 11:36:29,0.001s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,02-01-2024 11:36:29,02-01-2024 11:36:30,0.230s,PASSED
+,,,,,,,
+Test Cases/Bill,Chrome 120.0.0.0,,,02-01-2024 11:36:30,02-01-2024 11:36:48,18.167s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 11:36:30,02-01-2024 11:36:31,0.859s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/login"")",Chrome 120.0.0.0,,,02-01-2024 11:36:31,02-01-2024 11:36:31,0.473s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/input_email""), ""khoacraphotograph@gmail.com"")",Chrome 120.0.0.0,,,02-01-2024 11:36:31,02-01-2024 11:36:32,0.816s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/input_password""), ""krbqsEPTyj+/ySZvycc2bfHXjZyOJWOA"")",Chrome 120.0.0.0,,,02-01-2024 11:36:32,02-01-2024 11:36:32,0.334s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,02-01-2024 11:36:32,02-01-2024 11:36:33,0.615s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Whats playing  Firefly III/a_Bills""))",Chrome 120.0.0.0,,,02-01-2024 11:36:33,02-01-2024 11:36:35,2.322s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Bills  Firefly III/a_Create new bill""))",Chrome 120.0.0.0,,,02-01-2024 11:36:35,02-01-2024 11:36:36,0.881s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_name""), name)",Chrome 120.0.0.0,,,02-01-2024 11:36:36,02-01-2024 11:36:37,0.797s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_min""), min_amount)",Chrome 120.0.0.0,,,02-01-2024 11:36:37,02-01-2024 11:36:37,0.613s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_max""), max_amount)",Chrome 120.0.0.0,,,02-01-2024 11:36:37,02-01-2024 11:36:38,0.588s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_date""), date)",Chrome 120.0.0.0,,,02-01-2024 11:36:38,02-01-2024 11:36:39,0.601s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/select_dailyweeklymonthlyquarterlyevery hal_79c7c6""), repeats, true)",Chrome 120.0.0.0,,,02-01-2024 11:36:39,02-01-2024 11:36:40,0.898s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_skip""), skip)",Chrome 120.0.0.0,,,02-01-2024 11:36:40,02-01-2024 11:36:40,0.616s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_end_date""), end_date)",Chrome 120.0.0.0,,,02-01-2024 11:36:40,02-01-2024 11:36:41,0.613s,PASSED
+"setText(findTestObject(""Bill/Page_Create new bill  Bills  Firefly III/input_extension_date""), extension_date)",Chrome 120.0.0.0,,,02-01-2024 11:36:41,02-01-2024 11:36:41,0.618s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/textarea_notes""), notes)",Chrome 120.0.0.0,,,02-01-2024 11:36:41,02-01-2024 11:36:43,1.348s,PASSED
+isFileLimit = false,Chrome 120.0.0.0,,,02-01-2024 11:36:43,02-01-2024 11:36:43,0.000s,PASSED
+if (attachments),Chrome 120.0.0.0,,,02-01-2024 11:36:43,02-01-2024 11:36:43,0.307s,PASSED
+"if (attachments == ""Attachments File/Report_65MB.csv"")",Chrome 120.0.0.0,,,02-01-2024 11:36:43,02-01-2024 11:36:43,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_object_group""), group)",Chrome 120.0.0.0,,,02-01-2024 11:36:43,02-01-2024 11:36:44,0.618s,PASSED
+"click(findTestObject(""Object Repository/Bill/Page_Create new bill  Bills  Firefly III/button_Store new bill""))",Chrome 120.0.0.0,,,02-01-2024 11:36:44,02-01-2024 11:36:45,1.340s,PASSED
+try,Chrome 120.0.0.0,,,02-01-2024 11:36:45,02-01-2024 11:36:47,2.404s,FAILED
+catch (Exception err),Chrome 120.0.0.0,,,02-01-2024 11:36:47,02-01-2024 11:36:48,0.281s,PASSED
+"if (max_amount != """" && min_amount != """")",Chrome 120.0.0.0,,,02-01-2024 11:36:48,02-01-2024 11:36:48,0.002s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,02-01-2024 11:36:48,02-01-2024 11:36:48,0.191s,PASSED

@@ -18,7 +18,7 @@
       <testCaseId>Test Cases/Create a new asset account</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>97f544d2-04d5-4df2-a22b-4c117eb3b75d</id>
+         <id>a3617d2b-49d8-4302-a5db-d4a735247001</id>
          <iterationEntity>
             <iterationType>ALL</iterationType>
             <value></value>
@@ -27,10 +27,76 @@
       </testDataLink>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
-         <testDataLinkId>97f544d2-04d5-4df2-a22b-4c117eb3b75d</testDataLinkId>
+         <testDataLinkId>a3617d2b-49d8-4302-a5db-d4a735247001</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>﻿name</value>
          <variableId>7d2cea90-24df-49f3-84fe-666aa9bcc786</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a3617d2b-49d8-4302-a5db-d4a735247001</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>currency</value>
+         <variableId>d521edf9-6ae5-474c-80de-c73a178e0f8c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a3617d2b-49d8-4302-a5db-d4a735247001</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>iban</value>
+         <variableId>92c86b61-0e92-4e14-8095-d4d96cda57e7</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a3617d2b-49d8-4302-a5db-d4a735247001</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>bic</value>
+         <variableId>9bb58cee-8197-45e3-8c1e-dcf33270c060</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a3617d2b-49d8-4302-a5db-d4a735247001</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>account_number</value>
+         <variableId>1f9aea90-a480-4a54-8491-27bbe1c4181c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a3617d2b-49d8-4302-a5db-d4a735247001</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>opening_balance</value>
+         <variableId>b1c8c330-962b-4552-b466-b3b5711aaceb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a3617d2b-49d8-4302-a5db-d4a735247001</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>opening_balance_date</value>
+         <variableId>911e2b73-0c4d-414c-b4b2-e5083b8f334e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a3617d2b-49d8-4302-a5db-d4a735247001</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>virtual_balance</value>
+         <variableId>be9b6887-5be8-431a-9186-7ac27c802b6d</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a3617d2b-49d8-4302-a5db-d4a735247001</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>account_role</value>
+         <variableId>74bc6583-da0c-45e6-9c59-0265f7efebe6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a3617d2b-49d8-4302-a5db-d4a735247001</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>include_in_net_worth</value>
+         <variableId>b1a0f671-0cfa-4c0c-a7fa-f2df0bd26fbc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a3617d2b-49d8-4302-a5db-d4a735247001</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>notes</value>
+         <variableId>4659f12a-39c1-4ace-9f32-399b3f222631</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>a3617d2b-49d8-4302-a5db-d4a735247001</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>attachments</value>
+         <variableId>03f4c2d6-c0ce-45d8-8274-1877751aba39</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
