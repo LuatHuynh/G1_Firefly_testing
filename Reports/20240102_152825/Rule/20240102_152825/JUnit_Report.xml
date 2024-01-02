@@ -1,0 +1,1653 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Rule" time="295.095" tests="10" failures="0" errors="0">
+   <testsuite name="Rule" tests="10" failures="0" errors="0" time="295.095" skipped="0" timestamp="02-01-2024T15:28:31" hostname="ACER - KHANH" id="Test Suites/Rule">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\ACER\\git\\G1_Firefly_testing\\Reports\\20240102_152825\\Rule\\20240102_152825"/>
+         <property name="logFiles" value="C:\\Users\\ACER\\git\\G1_Firefly_testing\\Reports\\20240102_152825\\Rule\\20240102_152825\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\ACER\\git\\G1_Firefly_testing\\Reports\\20240102_152825\\Rule\\20240102_152825\\1704184143659.png, C:\\Users\\ACER\\git\\G1_Firefly_testing\\Reports\\20240102_152825\\Rule\\20240102_152825\\1704184143910.png, C:\\Users\\ACER\\git\\G1_Firefly_testing\\Reports\\20240102_152825\\Rule\\20240102_152825\\1704184175011.png, C:\\Users\\ACER\\git\\G1_Firefly_testing\\Reports\\20240102_152825\\Rule\\20240102_152825\\1704184175229.png, C:\\Users\\ACER\\git\\G1_Firefly_testing\\Reports\\20240102_152825\\Rule\\20240102_152825\\1704184230671.png, C:\\Users\\ACER\\git\\G1_Firefly_testing\\Reports\\20240102_152825\\Rule\\20240102_152825\\1704184230934.png, C:\\Users\\ACER\\git\\G1_Firefly_testing\\Reports\\20240102_152825\\Rule\\20240102_152825\\1704184289349.png, C:\\Users\\ACER\\git\\G1_Firefly_testing\\Reports\\20240102_152825\\Rule\\20240102_152825\\1704184289473.png, C:\\Users\\ACER\\git\\G1_Firefly_testing\\Reports\\20240102_152825\\Rule\\20240102_152825\\1704184319771.png, C:\\Users\\ACER\\git\\G1_Firefly_testing\\Reports\\20240102_152825\\Rule\\20240102_152825\\1704184319989.png"/>
+         <property name="hostName" value="ACER - KHANH"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="sessionId" value="dc3e7e3f349a58d65a6b95a7063f4f38"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Rule" time="32.731" classname="Test Cases/Rule" status="PASSED">
+         <system-out><![CDATA[02-01-2024T15:28:31 - [TEST_CASE][PASSED] - Test Cases/Rule: Test Cases/Rule
+
+02-01-2024T15:28:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-01-2024T15:28:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-01-2024T15:28:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-01-2024T15:28:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-01-2024T15:28:34 - [TEST_STEP][PASSED] - navigateToUrl("https://firefly.buudadawg.online/login"): Navigate to 'https://firefly.buudadawg.online/login' successfully
+
+02-01-2024T15:28:38 - [MESSAGE][PASSED] - Navigate to 'https://firefly.buudadawg.online/login' successfully
+
+02-01-2024T15:28:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Login to Firefly III/input_email"), "klot12022002@gmail.com"): Text 'klot12022002@gmail.com' is set on object 'Object Repository/Rule/Page_Login to Firefly III/input_email'
+
+02-01-2024T15:28:39 - [MESSAGE][PASSED] - Text 'klot12022002@gmail.com' is set on object 'Object Repository/Rule/Page_Login to Firefly III/input_email'
+
+02-01-2024T15:28:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Rule/Page_Login to Firefly III/input_password"), "A0OWLKT5igxVrUm1hOyDrVf3RsK4FPOM"): Text ****** has been set on object 'Object Repository/Rule/Page_Login to Firefly III/input_password'
+
+02-01-2024T15:28:40 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Rule/Page_Login to Firefly III/input_password'
+
+02-01-2024T15:28:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Rule/Page_Login to Firefly III/button_Sign in' is clicked on
+
+02-01-2024T15:28:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Login to Firefly III/button_Sign in' is clicked on
+
+02-01-2024T15:28:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation")): Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation' is clicked on
+
+02-01-2024T15:28:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation' is clicked on
+
+02-01-2024T15:28:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules")): Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules' is clicked on
+
+02-01-2024T15:28:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules' is clicked on
+
+02-01-2024T15:28:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Rules  Firefly III/a_New rule")): Object: 'Object Repository/Rule/Page_Rules  Firefly III/a_New rule' is clicked on
+
+02-01-2024T15:28:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Rules  Firefly III/a_New rule' is clicked on
+
+02-01-2024T15:28:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title"), title): Text 'Transaction G' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title'
+
+02-01-2024T15:28:49 - [MESSAGE][PASSED] - Text 'Transaction G' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title'
+
+02-01-2024T15:28:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f"), trigger, true): All options with value 'store-journal' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f'  using regular expression
+
+02-01-2024T15:28:50 - [MESSAGE][PASSED] - All options with value 'store-journal' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f'  using regular expression
+
+02-01-2024T15:28:50 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group"), rule_group, true): All options with label 'Default rules' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group'  using regular expression
+
+02-01-2024T15:28:52 - [MESSAGE][PASSED] - All options with label 'Default rules' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group'  using regular expression
+
+02-01-2024T15:28:52 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description"), description): Text '' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description'
+
+02-01-2024T15:28:53 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description'
+
+02-01-2024T15:28:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value"), trigger_value): Text '98' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value'
+
+02-01-2024T15:28:54 - [MESSAGE][PASSED] - Text '98' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value'
+
+02-01-2024T15:28:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f"), trigger_condition, true): All options with value 'destination_account_nr_starts' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f'  using regular expression
+
+02-01-2024T15:28:56 - [MESSAGE][PASSED] - All options with value 'destination_account_nr_starts' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f'  using regular expression
+
+02-01-2024T15:28:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value"), action_value): Text 'morbi non lectus aliquam sit amet diam in magna bibendum imperdiet' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value'
+
+02-01-2024T15:28:57 - [MESSAGE][PASSED] - Text 'morbi non lectus aliquam sit amet diam in magna bibendum imperdiet' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value'
+
+02-01-2024T15:28:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d"), action, true): All options with value 'set_destination_to_cash' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d'  using regular expression
+
+02-01-2024T15:29:00 - [MESSAGE][PASSED] - All options with value 'set_destination_to_cash' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d'  using regular expression
+
+02-01-2024T15:29:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule")): Object: 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule' is clicked on
+
+02-01-2024T15:29:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule' is clicked on
+
+02-01-2024T15:29:01 - [TEST_STEP][FAILED] - try: Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at Rule.run(Rule:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704184105959.run(TempTestSuite1704184105959.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+)
+
+02-01-2024T15:29:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Shared_alert/text_dangers"), 1): Object 'Object Repository/Shared_alert/text_dangers' is present
+
+02-01-2024T15:29:02 - [MESSAGE][PASSED] - Object 'Object Repository/Shared_alert/text_dangers' is present
+
+02-01-2024T15:29:02 - [TEST_STEP][FAILED] - verifyElementNotPresent(findTestObject("Shared_alert/success_alert"), 1): Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at Rule.run(Rule:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704184105959.run(TempTestSuite1704184105959.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+)
+
+02-01-2024T15:29:03 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at Rule.run(Rule:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704184105959.run(TempTestSuite1704184105959.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\ACER\\git\\G1_Firefly_testing\\Reports\\20240102_152825\\Rule\\20240102_152825\\1704184143659.png]]
+
+02-01-2024T15:29:04 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at Rule.run(Rule:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704184105959.run(TempTestSuite1704184105959.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+)
+[[ATTACHMENT|C:\\Users\\ACER\\git\\G1_Firefly_testing\\Reports\\20240102_152825\\Rule\\20240102_152825\\1704184143910.png]]
+
+02-01-2024T15:29:04 - [TEST_STEP][PASSED] - catch (Exception err): null
+
+02-01-2024T15:29:04 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Shared_alert/success_alert"), 1): Object 'Object Repository/Shared_alert/success_alert' is present
+
+02-01-2024T15:29:04 - [MESSAGE][PASSED] - Object 'Object Repository/Shared_alert/success_alert' is present
+
+02-01-2024T15:29:04 - [TEST_STEP][PASSED] - out.println("success"): null
+
+02-01-2024T15:29:04 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-01-2024T15:29:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule" time="31.092" classname="Test Cases/Rule" status="PASSED">
+         <system-out><![CDATA[02-01-2024T15:29:04 - [TEST_CASE][PASSED] - Test Cases/Rule: Test Cases/Rule
+
+02-01-2024T15:29:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-01-2024T15:29:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-01-2024T15:29:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-01-2024T15:29:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-01-2024T15:29:06 - [TEST_STEP][PASSED] - navigateToUrl("https://firefly.buudadawg.online/login"): Navigate to 'https://firefly.buudadawg.online/login' successfully
+
+02-01-2024T15:29:09 - [MESSAGE][PASSED] - Navigate to 'https://firefly.buudadawg.online/login' successfully
+
+02-01-2024T15:29:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Login to Firefly III/input_email"), "klot12022002@gmail.com"): Text 'klot12022002@gmail.com' is set on object 'Object Repository/Rule/Page_Login to Firefly III/input_email'
+
+02-01-2024T15:29:10 - [MESSAGE][PASSED] - Text 'klot12022002@gmail.com' is set on object 'Object Repository/Rule/Page_Login to Firefly III/input_email'
+
+02-01-2024T15:29:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Rule/Page_Login to Firefly III/input_password"), "A0OWLKT5igxVrUm1hOyDrVf3RsK4FPOM"): Text ****** has been set on object 'Object Repository/Rule/Page_Login to Firefly III/input_password'
+
+02-01-2024T15:29:11 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Rule/Page_Login to Firefly III/input_password'
+
+02-01-2024T15:29:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Rule/Page_Login to Firefly III/button_Sign in' is clicked on
+
+02-01-2024T15:29:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Login to Firefly III/button_Sign in' is clicked on
+
+02-01-2024T15:29:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation")): Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation' is clicked on
+
+02-01-2024T15:29:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation' is clicked on
+
+02-01-2024T15:29:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules")): Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules' is clicked on
+
+02-01-2024T15:29:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules' is clicked on
+
+02-01-2024T15:29:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Rules  Firefly III/a_New rule")): Object: 'Object Repository/Rule/Page_Rules  Firefly III/a_New rule' is clicked on
+
+02-01-2024T15:29:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Rules  Firefly III/a_New rule' is clicked on
+
+02-01-2024T15:29:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title"), title): Text 'Transaction C' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title'
+
+02-01-2024T15:29:20 - [MESSAGE][PASSED] - Text 'Transaction C' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title'
+
+02-01-2024T15:29:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f"), trigger, true): All options with value 'update-journal' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f'  using regular expression
+
+02-01-2024T15:29:22 - [MESSAGE][PASSED] - All options with value 'update-journal' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f'  using regular expression
+
+02-01-2024T15:29:22 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group"), rule_group, true): All options with label 'Default rules' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group'  using regular expression
+
+02-01-2024T15:29:23 - [MESSAGE][PASSED] - All options with label 'Default rules' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group'  using regular expression
+
+02-01-2024T15:29:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description"), description): Text 'donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description'
+
+02-01-2024T15:29:24 - [MESSAGE][PASSED] - Text 'donec posuere metus vitae ipsum aliquam non mauris morbi non lectus aliquam sit amet diam in magna' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description'
+
+02-01-2024T15:29:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value"), trigger_value): Text '46' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value'
+
+02-01-2024T15:29:24 - [MESSAGE][PASSED] - Text '46' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value'
+
+02-01-2024T15:29:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f"), trigger_condition, true): All options with value 'notes_starts' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f'  using regular expression
+
+02-01-2024T15:29:28 - [MESSAGE][PASSED] - All options with value 'notes_starts' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f'  using regular expression
+
+02-01-2024T15:29:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value"), action_value): Text 'in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value'
+
+02-01-2024T15:29:29 - [MESSAGE][PASSED] - Text 'in tempus sit amet sem fusce consequat nulla nisl nunc nisl duis' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value'
+
+02-01-2024T15:29:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d"), action, true): All options with value 'prepend_notes' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d'  using regular expression
+
+02-01-2024T15:29:32 - [MESSAGE][PASSED] - All options with value 'prepend_notes' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d'  using regular expression
+
+02-01-2024T15:29:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule")): Object: 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule' is clicked on
+
+02-01-2024T15:29:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule' is clicked on
+
+02-01-2024T15:29:32 - [TEST_STEP][FAILED] - try: Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at Rule.run(Rule:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704184105959.run(TempTestSuite1704184105959.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+)
+
+02-01-2024T15:29:32 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Shared_alert/text_dangers"), 1): Object 'Object Repository/Shared_alert/text_dangers' is present
+
+02-01-2024T15:29:33 - [MESSAGE][PASSED] - Object 'Object Repository/Shared_alert/text_dangers' is present
+
+02-01-2024T15:29:33 - [TEST_STEP][FAILED] - verifyElementNotPresent(findTestObject("Shared_alert/success_alert"), 1): Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at Rule.run(Rule:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704184105959.run(TempTestSuite1704184105959.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+)
+
+02-01-2024T15:29:35 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at Rule.run(Rule:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704184105959.run(TempTestSuite1704184105959.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\ACER\\git\\G1_Firefly_testing\\Reports\\20240102_152825\\Rule\\20240102_152825\\1704184175011.png]]
+
+02-01-2024T15:29:35 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at Rule.run(Rule:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704184105959.run(TempTestSuite1704184105959.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+)
+[[ATTACHMENT|C:\\Users\\ACER\\git\\G1_Firefly_testing\\Reports\\20240102_152825\\Rule\\20240102_152825\\1704184175229.png]]
+
+02-01-2024T15:29:35 - [TEST_STEP][PASSED] - catch (Exception err): null
+
+02-01-2024T15:29:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Shared_alert/success_alert"), 1): Object 'Object Repository/Shared_alert/success_alert' is present
+
+02-01-2024T15:29:35 - [MESSAGE][PASSED] - Object 'Object Repository/Shared_alert/success_alert' is present
+
+02-01-2024T15:29:35 - [TEST_STEP][PASSED] - out.println("success"): null
+
+02-01-2024T15:29:35 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-01-2024T15:29:35 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule" time="28.014" classname="Test Cases/Rule" status="PASSED">
+         <system-out><![CDATA[02-01-2024T15:29:36 - [TEST_CASE][PASSED] - Test Cases/Rule: Test Cases/Rule
+
+02-01-2024T15:29:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-01-2024T15:29:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-01-2024T15:29:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-01-2024T15:29:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-01-2024T15:29:37 - [TEST_STEP][PASSED] - navigateToUrl("https://firefly.buudadawg.online/login"): Navigate to 'https://firefly.buudadawg.online/login' successfully
+
+02-01-2024T15:29:40 - [MESSAGE][PASSED] - Navigate to 'https://firefly.buudadawg.online/login' successfully
+
+02-01-2024T15:29:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Login to Firefly III/input_email"), "klot12022002@gmail.com"): Text 'klot12022002@gmail.com' is set on object 'Object Repository/Rule/Page_Login to Firefly III/input_email'
+
+02-01-2024T15:29:41 - [MESSAGE][PASSED] - Text 'klot12022002@gmail.com' is set on object 'Object Repository/Rule/Page_Login to Firefly III/input_email'
+
+02-01-2024T15:29:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Rule/Page_Login to Firefly III/input_password"), "A0OWLKT5igxVrUm1hOyDrVf3RsK4FPOM"): Text ****** has been set on object 'Object Repository/Rule/Page_Login to Firefly III/input_password'
+
+02-01-2024T15:29:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Rule/Page_Login to Firefly III/input_password'
+
+02-01-2024T15:29:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Rule/Page_Login to Firefly III/button_Sign in' is clicked on
+
+02-01-2024T15:29:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Login to Firefly III/button_Sign in' is clicked on
+
+02-01-2024T15:29:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation")): Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation' is clicked on
+
+02-01-2024T15:29:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation' is clicked on
+
+02-01-2024T15:29:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules")): Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules' is clicked on
+
+02-01-2024T15:29:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules' is clicked on
+
+02-01-2024T15:29:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Rules  Firefly III/a_New rule")): Object: 'Object Repository/Rule/Page_Rules  Firefly III/a_New rule' is clicked on
+
+02-01-2024T15:29:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Rules  Firefly III/a_New rule' is clicked on
+
+02-01-2024T15:29:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title"), title): Text 'Transaction B' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title'
+
+02-01-2024T15:29:52 - [MESSAGE][PASSED] - Text 'Transaction B' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title'
+
+02-01-2024T15:29:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f"), trigger, true): All options with value 'update-journal' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f'  using regular expression
+
+02-01-2024T15:29:53 - [MESSAGE][PASSED] - All options with value 'update-journal' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f'  using regular expression
+
+02-01-2024T15:29:53 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group"), rule_group, true): All options with label 'Default rules' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group'  using regular expression
+
+02-01-2024T15:29:54 - [MESSAGE][PASSED] - All options with label 'Default rules' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group'  using regular expression
+
+02-01-2024T15:29:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description"), description): Text '' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description'
+
+02-01-2024T15:29:55 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description'
+
+02-01-2024T15:29:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value"), trigger_value): Text '84' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value'
+
+02-01-2024T15:29:55 - [MESSAGE][PASSED] - Text '84' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value'
+
+02-01-2024T15:29:55 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f"), trigger_condition, true): All options with value 'book_date_after' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f'  using regular expression
+
+02-01-2024T15:29:58 - [MESSAGE][PASSED] - All options with value 'book_date_after' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f'  using regular expression
+
+02-01-2024T15:29:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value"), action_value): Text 'vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value'
+
+02-01-2024T15:29:59 - [MESSAGE][PASSED] - Text 'vestibulum sagittis sapien cum sociis natoque penatibus et magnis dis parturient montes' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value'
+
+02-01-2024T15:29:59 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d"), action, true): All options with value 'convert_transfer' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d'  using regular expression
+
+02-01-2024T15:30:01 - [MESSAGE][PASSED] - All options with value 'convert_transfer' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d'  using regular expression
+
+02-01-2024T15:30:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule")): Object: 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule' is clicked on
+
+02-01-2024T15:30:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule' is clicked on
+
+02-01-2024T15:30:02 - [TEST_STEP][PASSED] - try: null
+
+02-01-2024T15:30:02 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Shared_alert/text_dangers"), 1): Object 'Object Repository/Shared_alert/text_dangers' is present
+
+02-01-2024T15:30:03 - [MESSAGE][PASSED] - Object 'Object Repository/Shared_alert/text_dangers' is present
+
+02-01-2024T15:30:03 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Shared_alert/success_alert"), 1): Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is not present after '1' second(s)
+
+02-01-2024T15:30:03 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is not present after '1' second(s)
+
+02-01-2024T15:30:03 - [TEST_STEP][PASSED] - out.println("text danger"): null
+
+02-01-2024T15:30:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-01-2024T15:30:04 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule" time="27.477" classname="Test Cases/Rule" status="PASSED">
+         <system-out><![CDATA[02-01-2024T15:30:04 - [TEST_CASE][PASSED] - Test Cases/Rule: Test Cases/Rule
+
+02-01-2024T15:30:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-01-2024T15:30:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-01-2024T15:30:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-01-2024T15:30:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-01-2024T15:30:05 - [TEST_STEP][PASSED] - navigateToUrl("https://firefly.buudadawg.online/login"): Navigate to 'https://firefly.buudadawg.online/login' successfully
+
+02-01-2024T15:30:08 - [MESSAGE][PASSED] - Navigate to 'https://firefly.buudadawg.online/login' successfully
+
+02-01-2024T15:30:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Login to Firefly III/input_email"), "klot12022002@gmail.com"): Text 'klot12022002@gmail.com' is set on object 'Object Repository/Rule/Page_Login to Firefly III/input_email'
+
+02-01-2024T15:30:09 - [MESSAGE][PASSED] - Text 'klot12022002@gmail.com' is set on object 'Object Repository/Rule/Page_Login to Firefly III/input_email'
+
+02-01-2024T15:30:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Rule/Page_Login to Firefly III/input_password"), "A0OWLKT5igxVrUm1hOyDrVf3RsK4FPOM"): Text ****** has been set on object 'Object Repository/Rule/Page_Login to Firefly III/input_password'
+
+02-01-2024T15:30:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Rule/Page_Login to Firefly III/input_password'
+
+02-01-2024T15:30:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Rule/Page_Login to Firefly III/button_Sign in' is clicked on
+
+02-01-2024T15:30:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Login to Firefly III/button_Sign in' is clicked on
+
+02-01-2024T15:30:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation")): Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation' is clicked on
+
+02-01-2024T15:30:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation' is clicked on
+
+02-01-2024T15:30:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules")): Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules' is clicked on
+
+02-01-2024T15:30:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules' is clicked on
+
+02-01-2024T15:30:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Rules  Firefly III/a_New rule")): Object: 'Object Repository/Rule/Page_Rules  Firefly III/a_New rule' is clicked on
+
+02-01-2024T15:30:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Rules  Firefly III/a_New rule' is clicked on
+
+02-01-2024T15:30:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title"), title): Text 'Transaction A' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title'
+
+02-01-2024T15:30:17 - [MESSAGE][PASSED] - Text 'Transaction A' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title'
+
+02-01-2024T15:30:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f"), trigger, true): All options with value 'store-journal' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f'  using regular expression
+
+02-01-2024T15:30:19 - [MESSAGE][PASSED] - All options with value 'store-journal' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f'  using regular expression
+
+02-01-2024T15:30:19 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group"), rule_group, true): All options with label 'Default rules' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group'  using regular expression
+
+02-01-2024T15:30:20 - [MESSAGE][PASSED] - All options with label 'Default rules' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group'  using regular expression
+
+02-01-2024T15:30:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description"), description): Text '' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description'
+
+02-01-2024T15:30:21 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description'
+
+02-01-2024T15:30:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value"), trigger_value): Text '70' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value'
+
+02-01-2024T15:30:22 - [MESSAGE][PASSED] - Text '70' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value'
+
+02-01-2024T15:30:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f"), trigger_condition, true): All options with value 'bill_starts' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f'  using regular expression
+
+02-01-2024T15:30:25 - [MESSAGE][PASSED] - All options with value 'bill_starts' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f'  using regular expression
+
+02-01-2024T15:30:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value"), action_value): Text 'fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value'
+
+02-01-2024T15:30:26 - [MESSAGE][PASSED] - Text 'fringilla rhoncus mauris enim leo rhoncus sed vestibulum sit amet' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value'
+
+02-01-2024T15:30:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d"), action, true): All options with value 'add_tag' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d'  using regular expression
+
+02-01-2024T15:30:28 - [MESSAGE][PASSED] - All options with value 'add_tag' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d'  using regular expression
+
+02-01-2024T15:30:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule")): Object: 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule' is clicked on
+
+02-01-2024T15:30:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule' is clicked on
+
+02-01-2024T15:30:28 - [TEST_STEP][FAILED] - try: Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at Rule.run(Rule:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704184105959.run(TempTestSuite1704184105959.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+)
+
+02-01-2024T15:30:28 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Shared_alert/text_dangers"), 1): Object 'Object Repository/Shared_alert/text_dangers' is present
+
+02-01-2024T15:30:29 - [MESSAGE][PASSED] - Object 'Object Repository/Shared_alert/text_dangers' is present
+
+02-01-2024T15:30:29 - [TEST_STEP][FAILED] - verifyElementNotPresent(findTestObject("Shared_alert/success_alert"), 1): Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at Rule.run(Rule:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704184105959.run(TempTestSuite1704184105959.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+)
+
+02-01-2024T15:30:30 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at Rule.run(Rule:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704184105959.run(TempTestSuite1704184105959.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\ACER\\git\\G1_Firefly_testing\\Reports\\20240102_152825\\Rule\\20240102_152825\\1704184230671.png]]
+
+02-01-2024T15:30:31 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at Rule.run(Rule:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704184105959.run(TempTestSuite1704184105959.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+)
+[[ATTACHMENT|C:\\Users\\ACER\\git\\G1_Firefly_testing\\Reports\\20240102_152825\\Rule\\20240102_152825\\1704184230934.png]]
+
+02-01-2024T15:30:31 - [TEST_STEP][PASSED] - catch (Exception err): null
+
+02-01-2024T15:30:31 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Shared_alert/success_alert"), 1): Object 'Object Repository/Shared_alert/success_alert' is present
+
+02-01-2024T15:30:31 - [MESSAGE][PASSED] - Object 'Object Repository/Shared_alert/success_alert' is present
+
+02-01-2024T15:30:31 - [TEST_STEP][PASSED] - out.println("success"): null
+
+02-01-2024T15:30:31 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-01-2024T15:30:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule" time="30.095" classname="Test Cases/Rule" status="PASSED">
+         <system-out><![CDATA[02-01-2024T15:30:31 - [TEST_CASE][PASSED] - Test Cases/Rule: Test Cases/Rule
+
+02-01-2024T15:30:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-01-2024T15:30:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-01-2024T15:30:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-01-2024T15:30:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-01-2024T15:30:32 - [TEST_STEP][PASSED] - navigateToUrl("https://firefly.buudadawg.online/login"): Navigate to 'https://firefly.buudadawg.online/login' successfully
+
+02-01-2024T15:30:36 - [MESSAGE][PASSED] - Navigate to 'https://firefly.buudadawg.online/login' successfully
+
+02-01-2024T15:30:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Login to Firefly III/input_email"), "klot12022002@gmail.com"): Text 'klot12022002@gmail.com' is set on object 'Object Repository/Rule/Page_Login to Firefly III/input_email'
+
+02-01-2024T15:30:37 - [MESSAGE][PASSED] - Text 'klot12022002@gmail.com' is set on object 'Object Repository/Rule/Page_Login to Firefly III/input_email'
+
+02-01-2024T15:30:37 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Rule/Page_Login to Firefly III/input_password"), "A0OWLKT5igxVrUm1hOyDrVf3RsK4FPOM"): Text ****** has been set on object 'Object Repository/Rule/Page_Login to Firefly III/input_password'
+
+02-01-2024T15:30:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Rule/Page_Login to Firefly III/input_password'
+
+02-01-2024T15:30:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Rule/Page_Login to Firefly III/button_Sign in' is clicked on
+
+02-01-2024T15:30:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Login to Firefly III/button_Sign in' is clicked on
+
+02-01-2024T15:30:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation")): Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation' is clicked on
+
+02-01-2024T15:30:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation' is clicked on
+
+02-01-2024T15:30:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules")): Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules' is clicked on
+
+02-01-2024T15:30:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules' is clicked on
+
+02-01-2024T15:30:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Rules  Firefly III/a_New rule")): Object: 'Object Repository/Rule/Page_Rules  Firefly III/a_New rule' is clicked on
+
+02-01-2024T15:30:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Rules  Firefly III/a_New rule' is clicked on
+
+02-01-2024T15:30:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title"), title): Text 'Transaction H' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title'
+
+02-01-2024T15:30:48 - [MESSAGE][PASSED] - Text 'Transaction H' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title'
+
+02-01-2024T15:30:48 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f"), trigger, true): All options with value 'update-journal' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f'  using regular expression
+
+02-01-2024T15:30:49 - [MESSAGE][PASSED] - All options with value 'update-journal' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f'  using regular expression
+
+02-01-2024T15:30:49 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group"), rule_group, true): All options with label 'Default rules' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group'  using regular expression
+
+02-01-2024T15:30:50 - [MESSAGE][PASSED] - All options with label 'Default rules' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group'  using regular expression
+
+02-01-2024T15:30:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description"), description): Text 'aenean fermentum donec ut mauris eget massa tempor convallis nulla' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description'
+
+02-01-2024T15:30:51 - [MESSAGE][PASSED] - Text 'aenean fermentum donec ut mauris eget massa tempor convallis nulla' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description'
+
+02-01-2024T15:30:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value"), trigger_value): Text '65' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value'
+
+02-01-2024T15:30:52 - [MESSAGE][PASSED] - Text '65' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value'
+
+02-01-2024T15:30:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f"), trigger_condition, true): All options with value 'invoice_date_after' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f'  using regular expression
+
+02-01-2024T15:30:56 - [MESSAGE][PASSED] - All options with value 'invoice_date_after' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f'  using regular expression
+
+02-01-2024T15:30:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value"), action_value): Text 'ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value'
+
+02-01-2024T15:30:57 - [MESSAGE][PASSED] - Text 'ut rhoncus aliquet pulvinar sed nisl nunc rhoncus dui vel sem sed sagittis nam congue' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value'
+
+02-01-2024T15:30:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d"), action, true): All options with value 'convert_transfer' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d'  using regular expression
+
+02-01-2024T15:30:59 - [MESSAGE][PASSED] - All options with value 'convert_transfer' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d'  using regular expression
+
+02-01-2024T15:30:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule")): Object: 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule' is clicked on
+
+02-01-2024T15:31:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule' is clicked on
+
+02-01-2024T15:31:00 - [TEST_STEP][PASSED] - try: null
+
+02-01-2024T15:31:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Shared_alert/text_dangers"), 1): Object 'Object Repository/Shared_alert/text_dangers' is present
+
+02-01-2024T15:31:01 - [MESSAGE][PASSED] - Object 'Object Repository/Shared_alert/text_dangers' is present
+
+02-01-2024T15:31:01 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Shared_alert/success_alert"), 1): Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is not present after '1' second(s)
+
+02-01-2024T15:31:01 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is not present after '1' second(s)
+
+02-01-2024T15:31:01 - [TEST_STEP][PASSED] - out.println("text danger"): null
+
+02-01-2024T15:31:01 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-01-2024T15:31:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule" time="28.172" classname="Test Cases/Rule" status="PASSED">
+         <system-out><![CDATA[02-01-2024T15:31:02 - [TEST_CASE][PASSED] - Test Cases/Rule: Test Cases/Rule
+
+02-01-2024T15:31:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-01-2024T15:31:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-01-2024T15:31:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-01-2024T15:31:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-01-2024T15:31:03 - [TEST_STEP][PASSED] - navigateToUrl("https://firefly.buudadawg.online/login"): Navigate to 'https://firefly.buudadawg.online/login' successfully
+
+02-01-2024T15:31:06 - [MESSAGE][PASSED] - Navigate to 'https://firefly.buudadawg.online/login' successfully
+
+02-01-2024T15:31:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Login to Firefly III/input_email"), "klot12022002@gmail.com"): Text 'klot12022002@gmail.com' is set on object 'Object Repository/Rule/Page_Login to Firefly III/input_email'
+
+02-01-2024T15:31:07 - [MESSAGE][PASSED] - Text 'klot12022002@gmail.com' is set on object 'Object Repository/Rule/Page_Login to Firefly III/input_email'
+
+02-01-2024T15:31:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Rule/Page_Login to Firefly III/input_password"), "A0OWLKT5igxVrUm1hOyDrVf3RsK4FPOM"): Text ****** has been set on object 'Object Repository/Rule/Page_Login to Firefly III/input_password'
+
+02-01-2024T15:31:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Rule/Page_Login to Firefly III/input_password'
+
+02-01-2024T15:31:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Rule/Page_Login to Firefly III/button_Sign in' is clicked on
+
+02-01-2024T15:31:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Login to Firefly III/button_Sign in' is clicked on
+
+02-01-2024T15:31:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation")): Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation' is clicked on
+
+02-01-2024T15:31:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation' is clicked on
+
+02-01-2024T15:31:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules")): Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules' is clicked on
+
+02-01-2024T15:31:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules' is clicked on
+
+02-01-2024T15:31:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Rules  Firefly III/a_New rule")): Object: 'Object Repository/Rule/Page_Rules  Firefly III/a_New rule' is clicked on
+
+02-01-2024T15:31:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Rules  Firefly III/a_New rule' is clicked on
+
+02-01-2024T15:31:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title"), title): Text 'Transaction H' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title'
+
+02-01-2024T15:31:15 - [MESSAGE][PASSED] - Text 'Transaction H' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title'
+
+02-01-2024T15:31:15 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f"), trigger, true): All options with value 'update-journal' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f'  using regular expression
+
+02-01-2024T15:31:17 - [MESSAGE][PASSED] - All options with value 'update-journal' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f'  using regular expression
+
+02-01-2024T15:31:17 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group"), rule_group, true): All options with label 'Default rules' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group'  using regular expression
+
+02-01-2024T15:31:18 - [MESSAGE][PASSED] - All options with label 'Default rules' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group'  using regular expression
+
+02-01-2024T15:31:18 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description"), description): Text '' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description'
+
+02-01-2024T15:31:19 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description'
+
+02-01-2024T15:31:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value"), trigger_value): Text '35' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value'
+
+02-01-2024T15:31:19 - [MESSAGE][PASSED] - Text '35' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value'
+
+02-01-2024T15:31:19 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f"), trigger_condition, true): All options with value 'invoice_date_on' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f'  using regular expression
+
+02-01-2024T15:31:23 - [MESSAGE][PASSED] - All options with value 'invoice_date_on' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f'  using regular expression
+
+02-01-2024T15:31:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value"), action_value): Text 'amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value'
+
+02-01-2024T15:31:24 - [MESSAGE][PASSED] - Text 'amet eleifend pede libero quis orci nullam molestie nibh in lectus pellentesque at nulla suspendisse potenti cras' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value'
+
+02-01-2024T15:31:24 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d"), action, true): All options with value 'remove_all_tags' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d'  using regular expression
+
+02-01-2024T15:31:26 - [MESSAGE][PASSED] - All options with value 'remove_all_tags' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d'  using regular expression
+
+02-01-2024T15:31:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule")): Object: 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule' is clicked on
+
+02-01-2024T15:31:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule' is clicked on
+
+02-01-2024T15:31:27 - [TEST_STEP][FAILED] - try: Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at Rule.run(Rule:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704184105959.run(TempTestSuite1704184105959.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+)
+
+02-01-2024T15:31:27 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Shared_alert/text_dangers"), 1): Object 'Object Repository/Shared_alert/text_dangers' is present
+
+02-01-2024T15:31:28 - [MESSAGE][PASSED] - Object 'Object Repository/Shared_alert/text_dangers' is present
+
+02-01-2024T15:31:28 - [TEST_STEP][FAILED] - verifyElementNotPresent(findTestObject("Shared_alert/success_alert"), 1): Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at Rule.run(Rule:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704184105959.run(TempTestSuite1704184105959.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+)
+
+02-01-2024T15:31:29 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at Rule.run(Rule:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704184105959.run(TempTestSuite1704184105959.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\ACER\\git\\G1_Firefly_testing\\Reports\\20240102_152825\\Rule\\20240102_152825\\1704184289349.png]]
+
+02-01-2024T15:31:29 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at Rule.run(Rule:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704184105959.run(TempTestSuite1704184105959.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+)
+[[ATTACHMENT|C:\\Users\\ACER\\git\\G1_Firefly_testing\\Reports\\20240102_152825\\Rule\\20240102_152825\\1704184289473.png]]
+
+02-01-2024T15:31:29 - [TEST_STEP][PASSED] - catch (Exception err): null
+
+02-01-2024T15:31:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Shared_alert/success_alert"), 1): Object 'Object Repository/Shared_alert/success_alert' is present
+
+02-01-2024T15:31:29 - [MESSAGE][PASSED] - Object 'Object Repository/Shared_alert/success_alert' is present
+
+02-01-2024T15:31:29 - [TEST_STEP][PASSED] - out.println("success"): null
+
+02-01-2024T15:31:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-01-2024T15:31:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule" time="30.387" classname="Test Cases/Rule" status="PASSED">
+         <system-out><![CDATA[02-01-2024T15:31:30 - [TEST_CASE][PASSED] - Test Cases/Rule: Test Cases/Rule
+
+02-01-2024T15:31:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-01-2024T15:31:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-01-2024T15:31:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-01-2024T15:31:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-01-2024T15:31:31 - [TEST_STEP][PASSED] - navigateToUrl("https://firefly.buudadawg.online/login"): Navigate to 'https://firefly.buudadawg.online/login' successfully
+
+02-01-2024T15:31:34 - [MESSAGE][PASSED] - Navigate to 'https://firefly.buudadawg.online/login' successfully
+
+02-01-2024T15:31:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Login to Firefly III/input_email"), "klot12022002@gmail.com"): Text 'klot12022002@gmail.com' is set on object 'Object Repository/Rule/Page_Login to Firefly III/input_email'
+
+02-01-2024T15:31:35 - [MESSAGE][PASSED] - Text 'klot12022002@gmail.com' is set on object 'Object Repository/Rule/Page_Login to Firefly III/input_email'
+
+02-01-2024T15:31:35 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Rule/Page_Login to Firefly III/input_password"), "A0OWLKT5igxVrUm1hOyDrVf3RsK4FPOM"): Text ****** has been set on object 'Object Repository/Rule/Page_Login to Firefly III/input_password'
+
+02-01-2024T15:31:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Rule/Page_Login to Firefly III/input_password'
+
+02-01-2024T15:31:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Rule/Page_Login to Firefly III/button_Sign in' is clicked on
+
+02-01-2024T15:31:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Login to Firefly III/button_Sign in' is clicked on
+
+02-01-2024T15:31:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation")): Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation' is clicked on
+
+02-01-2024T15:31:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation' is clicked on
+
+02-01-2024T15:31:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules")): Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules' is clicked on
+
+02-01-2024T15:31:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules' is clicked on
+
+02-01-2024T15:31:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Rules  Firefly III/a_New rule")): Object: 'Object Repository/Rule/Page_Rules  Firefly III/a_New rule' is clicked on
+
+02-01-2024T15:31:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Rules  Firefly III/a_New rule' is clicked on
+
+02-01-2024T15:31:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title"), title): Text 'Transaction F' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title'
+
+02-01-2024T15:31:46 - [MESSAGE][PASSED] - Text 'Transaction F' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title'
+
+02-01-2024T15:31:46 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f"), trigger, true): All options with value 'update-journal' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f'  using regular expression
+
+02-01-2024T15:31:47 - [MESSAGE][PASSED] - All options with value 'update-journal' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f'  using regular expression
+
+02-01-2024T15:31:47 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group"), rule_group, true): All options with label 'First group' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group'  using regular expression
+
+02-01-2024T15:31:48 - [MESSAGE][PASSED] - All options with label 'First group' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group'  using regular expression
+
+02-01-2024T15:31:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description"), description): Text 'hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description'
+
+02-01-2024T15:31:49 - [MESSAGE][PASSED] - Text 'hendrerit at vulputate vitae nisl aenean lectus pellentesque eget nunc donec quis orci eget orci vehicula' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description'
+
+02-01-2024T15:31:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value"), trigger_value): Text '1' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value'
+
+02-01-2024T15:31:50 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value'
+
+02-01-2024T15:31:50 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f"), trigger_condition, true): All options with value 'attachment_notes_starts' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f'  using regular expression
+
+02-01-2024T15:31:53 - [MESSAGE][PASSED] - All options with value 'attachment_notes_starts' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f'  using regular expression
+
+02-01-2024T15:31:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value"), action_value): Text 'venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value'
+
+02-01-2024T15:31:54 - [MESSAGE][PASSED] - Text 'venenatis turpis enim blandit mi in porttitor pede justo eu massa donec dapibus duis at velit eu' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value'
+
+02-01-2024T15:31:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d"), action, true): All options with value 'convert_deposit' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d'  using regular expression
+
+02-01-2024T15:31:56 - [MESSAGE][PASSED] - All options with value 'convert_deposit' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d'  using regular expression
+
+02-01-2024T15:31:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule")): Object: 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule' is clicked on
+
+02-01-2024T15:31:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule' is clicked on
+
+02-01-2024T15:31:57 - [TEST_STEP][FAILED] - try: Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at Rule.run(Rule:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704184105959.run(TempTestSuite1704184105959.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+)
+
+02-01-2024T15:31:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Shared_alert/text_dangers"), 1): Object 'Object Repository/Shared_alert/text_dangers' is present
+
+02-01-2024T15:31:58 - [MESSAGE][PASSED] - Object 'Object Repository/Shared_alert/text_dangers' is present
+
+02-01-2024T15:31:58 - [TEST_STEP][FAILED] - verifyElementNotPresent(findTestObject("Shared_alert/success_alert"), 1): Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at Rule.run(Rule:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704184105959.run(TempTestSuite1704184105959.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+)
+
+02-01-2024T15:31:59 - [MESSAGE][FAILED] - Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s) (Root cause: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at Rule.run(Rule:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704184105959.run(TempTestSuite1704184105959.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\ACER\\git\\G1_Firefly_testing\\Reports\\20240102_152825\\Rule\\20240102_152825\\1704184319771.png]]
+
+02-01-2024T15:32:00 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/Shared_alert/success_alert' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$runKeyword.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.verifyElementNotPresent(VerifyElementNotPresentKeyword.groovy:122)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword.execute(VerifyElementNotPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotPresent(WebUiBuiltInKeywords.groovy:1536)
+	at Rule.run(Rule:64)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704184105959.run(TempTestSuite1704184105959.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is present after '1' second(s)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$stepFailed$0.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy:113)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementNotPresentKeyword$_verifyElementNotPresent_closure1.doCall(VerifyElementNotPresentKeyword.groovy)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 21 more
+)
+[[ATTACHMENT|C:\\Users\\ACER\\git\\G1_Firefly_testing\\Reports\\20240102_152825\\Rule\\20240102_152825\\1704184319989.png]]
+
+02-01-2024T15:32:00 - [TEST_STEP][PASSED] - catch (Exception err): null
+
+02-01-2024T15:32:00 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Shared_alert/success_alert"), 1): Object 'Object Repository/Shared_alert/success_alert' is present
+
+02-01-2024T15:32:00 - [MESSAGE][PASSED] - Object 'Object Repository/Shared_alert/success_alert' is present
+
+02-01-2024T15:32:00 - [TEST_STEP][PASSED] - out.println("success"): null
+
+02-01-2024T15:32:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-01-2024T15:32:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule" time="30.213" classname="Test Cases/Rule" status="PASSED">
+         <system-out><![CDATA[02-01-2024T15:32:00 - [TEST_CASE][PASSED] - Test Cases/Rule: Test Cases/Rule
+
+02-01-2024T15:32:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-01-2024T15:32:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-01-2024T15:32:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-01-2024T15:32:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-01-2024T15:32:02 - [TEST_STEP][PASSED] - navigateToUrl("https://firefly.buudadawg.online/login"): Navigate to 'https://firefly.buudadawg.online/login' successfully
+
+02-01-2024T15:32:05 - [MESSAGE][PASSED] - Navigate to 'https://firefly.buudadawg.online/login' successfully
+
+02-01-2024T15:32:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Login to Firefly III/input_email"), "klot12022002@gmail.com"): Text 'klot12022002@gmail.com' is set on object 'Object Repository/Rule/Page_Login to Firefly III/input_email'
+
+02-01-2024T15:32:06 - [MESSAGE][PASSED] - Text 'klot12022002@gmail.com' is set on object 'Object Repository/Rule/Page_Login to Firefly III/input_email'
+
+02-01-2024T15:32:06 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Rule/Page_Login to Firefly III/input_password"), "A0OWLKT5igxVrUm1hOyDrVf3RsK4FPOM"): Text ****** has been set on object 'Object Repository/Rule/Page_Login to Firefly III/input_password'
+
+02-01-2024T15:32:07 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Rule/Page_Login to Firefly III/input_password'
+
+02-01-2024T15:32:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Rule/Page_Login to Firefly III/button_Sign in' is clicked on
+
+02-01-2024T15:32:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Login to Firefly III/button_Sign in' is clicked on
+
+02-01-2024T15:32:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation")): Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation' is clicked on
+
+02-01-2024T15:32:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation' is clicked on
+
+02-01-2024T15:32:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules")): Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules' is clicked on
+
+02-01-2024T15:32:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules' is clicked on
+
+02-01-2024T15:32:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Rules  Firefly III/a_New rule")): Object: 'Object Repository/Rule/Page_Rules  Firefly III/a_New rule' is clicked on
+
+02-01-2024T15:32:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Rules  Firefly III/a_New rule' is clicked on
+
+02-01-2024T15:32:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title"), title): Text 'Transaction H' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title'
+
+02-01-2024T15:32:17 - [MESSAGE][PASSED] - Text 'Transaction H' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title'
+
+02-01-2024T15:32:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f"), trigger, true): All options with value 'update-journal' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f'  using regular expression
+
+02-01-2024T15:32:18 - [MESSAGE][PASSED] - All options with value 'update-journal' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f'  using regular expression
+
+02-01-2024T15:32:18 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group"), rule_group, true): All options with label 'First group' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group'  using regular expression
+
+02-01-2024T15:32:19 - [MESSAGE][PASSED] - All options with label 'First group' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group'  using regular expression
+
+02-01-2024T15:32:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description"), description): Text '' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description'
+
+02-01-2024T15:32:20 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description'
+
+02-01-2024T15:32:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value"), trigger_value): Text '51' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value'
+
+02-01-2024T15:32:21 - [MESSAGE][PASSED] - Text '51' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value'
+
+02-01-2024T15:32:21 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f"), trigger_condition, true): All options with value 'internal_reference_contains' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f'  using regular expression
+
+02-01-2024T15:32:25 - [MESSAGE][PASSED] - All options with value 'internal_reference_contains' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f'  using regular expression
+
+02-01-2024T15:32:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value"), action_value): Text 'bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value'
+
+02-01-2024T15:32:26 - [MESSAGE][PASSED] - Text 'bibendum imperdiet nullam orci pede venenatis non sodales sed tincidunt eu felis' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value'
+
+02-01-2024T15:32:26 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d"), action, true): All options with value 'prepend_notes' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d'  using regular expression
+
+02-01-2024T15:32:29 - [MESSAGE][PASSED] - All options with value 'prepend_notes' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d'  using regular expression
+
+02-01-2024T15:32:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule")): Object: 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule' is clicked on
+
+02-01-2024T15:32:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule' is clicked on
+
+02-01-2024T15:32:29 - [TEST_STEP][PASSED] - try: null
+
+02-01-2024T15:32:29 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Shared_alert/text_dangers"), 1): Object 'Object Repository/Shared_alert/text_dangers' is present
+
+02-01-2024T15:32:30 - [MESSAGE][PASSED] - Object 'Object Repository/Shared_alert/text_dangers' is present
+
+02-01-2024T15:32:30 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Shared_alert/success_alert"), 1): Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is not present after '1' second(s)
+
+02-01-2024T15:32:30 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is not present after '1' second(s)
+
+02-01-2024T15:32:30 - [TEST_STEP][PASSED] - out.println("text danger"): null
+
+02-01-2024T15:32:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-01-2024T15:32:31 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule" time="27.674" classname="Test Cases/Rule" status="PASSED">
+         <system-out><![CDATA[02-01-2024T15:32:31 - [TEST_CASE][PASSED] - Test Cases/Rule: Test Cases/Rule
+
+02-01-2024T15:32:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-01-2024T15:32:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-01-2024T15:32:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-01-2024T15:32:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-01-2024T15:32:32 - [TEST_STEP][PASSED] - navigateToUrl("https://firefly.buudadawg.online/login"): Navigate to 'https://firefly.buudadawg.online/login' successfully
+
+02-01-2024T15:32:35 - [MESSAGE][PASSED] - Navigate to 'https://firefly.buudadawg.online/login' successfully
+
+02-01-2024T15:32:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Login to Firefly III/input_email"), "klot12022002@gmail.com"): Text 'klot12022002@gmail.com' is set on object 'Object Repository/Rule/Page_Login to Firefly III/input_email'
+
+02-01-2024T15:32:36 - [MESSAGE][PASSED] - Text 'klot12022002@gmail.com' is set on object 'Object Repository/Rule/Page_Login to Firefly III/input_email'
+
+02-01-2024T15:32:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Rule/Page_Login to Firefly III/input_password"), "A0OWLKT5igxVrUm1hOyDrVf3RsK4FPOM"): Text ****** has been set on object 'Object Repository/Rule/Page_Login to Firefly III/input_password'
+
+02-01-2024T15:32:37 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Rule/Page_Login to Firefly III/input_password'
+
+02-01-2024T15:32:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Rule/Page_Login to Firefly III/button_Sign in' is clicked on
+
+02-01-2024T15:32:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Login to Firefly III/button_Sign in' is clicked on
+
+02-01-2024T15:32:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation")): Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation' is clicked on
+
+02-01-2024T15:32:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation' is clicked on
+
+02-01-2024T15:32:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules")): Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules' is clicked on
+
+02-01-2024T15:32:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules' is clicked on
+
+02-01-2024T15:32:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Rules  Firefly III/a_New rule")): Object: 'Object Repository/Rule/Page_Rules  Firefly III/a_New rule' is clicked on
+
+02-01-2024T15:32:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Rules  Firefly III/a_New rule' is clicked on
+
+02-01-2024T15:32:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title"), title): Text 'Transaction G' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title'
+
+02-01-2024T15:32:44 - [MESSAGE][PASSED] - Text 'Transaction G' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title'
+
+02-01-2024T15:32:44 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f"), trigger, true): All options with value 'store-journal' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f'  using regular expression
+
+02-01-2024T15:32:45 - [MESSAGE][PASSED] - All options with value 'store-journal' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f'  using regular expression
+
+02-01-2024T15:32:45 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group"), rule_group, true): All options with label 'First group' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group'  using regular expression
+
+02-01-2024T15:32:47 - [MESSAGE][PASSED] - All options with label 'First group' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group'  using regular expression
+
+02-01-2024T15:32:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description"), description): Text 'justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description'
+
+02-01-2024T15:32:48 - [MESSAGE][PASSED] - Text 'justo pellentesque viverra pede ac diam cras pellentesque volutpat dui maecenas tristique est et tempus semper est quam pharetra magna' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description'
+
+02-01-2024T15:32:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value"), trigger_value): Text '65' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value'
+
+02-01-2024T15:32:49 - [MESSAGE][PASSED] - Text '65' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value'
+
+02-01-2024T15:32:49 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f"), trigger_condition, true): All options with value 'interest_date_on' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f'  using regular expression
+
+02-01-2024T15:32:53 - [MESSAGE][PASSED] - All options with value 'interest_date_on' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f'  using regular expression
+
+02-01-2024T15:32:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value"), action_value): Text 'orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value'
+
+02-01-2024T15:32:54 - [MESSAGE][PASSED] - Text 'orci vehicula condimentum curabitur in libero ut massa volutpat convallis morbi odio odio elementum eu interdum eu tincidunt in leo' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value'
+
+02-01-2024T15:32:54 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d"), action, true): All options with value 'update_piggy' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d'  using regular expression
+
+02-01-2024T15:32:56 - [MESSAGE][PASSED] - All options with value 'update_piggy' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d'  using regular expression
+
+02-01-2024T15:32:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule")): Object: 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule' is clicked on
+
+02-01-2024T15:32:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule' is clicked on
+
+02-01-2024T15:32:57 - [TEST_STEP][PASSED] - try: null
+
+02-01-2024T15:32:57 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Shared_alert/text_dangers"), 1): Object 'Object Repository/Shared_alert/text_dangers' is present
+
+02-01-2024T15:32:58 - [MESSAGE][PASSED] - Object 'Object Repository/Shared_alert/text_dangers' is present
+
+02-01-2024T15:32:58 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Shared_alert/success_alert"), 1): Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is not present after '1' second(s)
+
+02-01-2024T15:32:58 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is not present after '1' second(s)
+
+02-01-2024T15:32:58 - [TEST_STEP][PASSED] - out.println("text danger"): null
+
+02-01-2024T15:32:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-01-2024T15:32:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Rule" time="27.581" classname="Test Cases/Rule" status="PASSED">
+         <system-out><![CDATA[02-01-2024T15:32:59 - [TEST_CASE][PASSED] - Test Cases/Rule: Test Cases/Rule
+
+02-01-2024T15:32:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+02-01-2024T15:32:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+02-01-2024T15:32:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+02-01-2024T15:33:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+02-01-2024T15:33:00 - [TEST_STEP][PASSED] - navigateToUrl("https://firefly.buudadawg.online/login"): Navigate to 'https://firefly.buudadawg.online/login' successfully
+
+02-01-2024T15:33:03 - [MESSAGE][PASSED] - Navigate to 'https://firefly.buudadawg.online/login' successfully
+
+02-01-2024T15:33:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Login to Firefly III/input_email"), "klot12022002@gmail.com"): Text 'klot12022002@gmail.com' is set on object 'Object Repository/Rule/Page_Login to Firefly III/input_email'
+
+02-01-2024T15:33:04 - [MESSAGE][PASSED] - Text 'klot12022002@gmail.com' is set on object 'Object Repository/Rule/Page_Login to Firefly III/input_email'
+
+02-01-2024T15:33:04 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Rule/Page_Login to Firefly III/input_password"), "A0OWLKT5igxVrUm1hOyDrVf3RsK4FPOM"): Text ****** has been set on object 'Object Repository/Rule/Page_Login to Firefly III/input_password'
+
+02-01-2024T15:33:05 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Rule/Page_Login to Firefly III/input_password'
+
+02-01-2024T15:33:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Rule/Page_Login to Firefly III/button_Sign in' is clicked on
+
+02-01-2024T15:33:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Login to Firefly III/button_Sign in' is clicked on
+
+02-01-2024T15:33:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation")): Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation' is clicked on
+
+02-01-2024T15:33:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Automation' is clicked on
+
+02-01-2024T15:33:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules")): Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules' is clicked on
+
+02-01-2024T15:33:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Whats playing  Firefly III/span_Rules' is clicked on
+
+02-01-2024T15:33:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Rules  Firefly III/a_New rule")): Object: 'Object Repository/Rule/Page_Rules  Firefly III/a_New rule' is clicked on
+
+02-01-2024T15:33:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Rules  Firefly III/a_New rule' is clicked on
+
+02-01-2024T15:33:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title"), title): Text 'Transaction C' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title'
+
+02-01-2024T15:33:12 - [MESSAGE][PASSED] - Text 'Transaction C' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_title'
+
+02-01-2024T15:33:12 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f"), trigger, true): All options with value 'store-journal' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f'  using regular expression
+
+02-01-2024T15:33:14 - [MESSAGE][PASSED] - All options with value 'store-journal' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_When a transaction is createdWhen a _cb5a5f'  using regular expression
+
+02-01-2024T15:33:14 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group"), rule_group, true): All options with label 'First group' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group'  using regular expression
+
+02-01-2024T15:33:15 - [MESSAGE][PASSED] - All options with label 'First group' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Default rulesFirst group'  using regular expression
+
+02-01-2024T15:33:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description"), description): Text '' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description'
+
+02-01-2024T15:33:16 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/textarea_description'
+
+02-01-2024T15:33:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value"), trigger_value): Text '11' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value'
+
+02-01-2024T15:33:17 - [MESSAGE][PASSED] - Text '11' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_triggers1value'
+
+02-01-2024T15:33:17 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f"), trigger_condition, true): All options with value 'category_ends' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f'  using regular expression
+
+02-01-2024T15:33:21 - [MESSAGE][PASSED] - All options with value 'category_ends' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Amount is less than or equal to .   _e8698f'  using regular expression
+
+02-01-2024T15:33:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value"), action_value): Text 'id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value'
+
+02-01-2024T15:33:22 - [MESSAGE][PASSED] - Text 'id ligula suspendisse ornare consequat lectus in est risus auctor sed tristique in tempus sit amet sem' is set on object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/input_actions1value'
+
+02-01-2024T15:33:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d"), action, true): All options with value 'append_notes_to_descr' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d'  using regular expression
+
+02-01-2024T15:33:24 - [MESSAGE][PASSED] - All options with value 'append_notes_to_descr' are selected in object 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/select_Add  remove transaction amount in pi_3c959d'  using regular expression
+
+02-01-2024T15:33:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule")): Object: 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule' is clicked on
+
+02-01-2024T15:33:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Rule/Page_Make a new rule in rule group Default _06afff/button_Store new rule' is clicked on
+
+02-01-2024T15:33:25 - [TEST_STEP][PASSED] - try: null
+
+02-01-2024T15:33:25 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Shared_alert/text_dangers"), 1): Object 'Object Repository/Shared_alert/text_dangers' is present
+
+02-01-2024T15:33:25 - [MESSAGE][PASSED] - Object 'Object Repository/Shared_alert/text_dangers' is present
+
+02-01-2024T15:33:25 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("Shared_alert/success_alert"), 1): Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is not present after '1' second(s)
+
+02-01-2024T15:33:26 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Shared_alert/success_alert' located by 'By.cssSelector: #app > div.content-wrapper > section.content > div' is not present after '1' second(s)
+
+02-01-2024T15:33:26 - [TEST_STEP][PASSED] - out.println("text danger"): null
+
+02-01-2024T15:33:26 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+02-01-2024T15:33:26 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[02-01-2024T15:28:31 - [TEST_SUITE][PASSED] - Rule: Test Cases/Rule]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

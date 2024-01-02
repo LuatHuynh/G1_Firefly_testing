@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_None selected</name>
+   <tag></tag>
+   <elementGuidId>ceb38a2e-55fa-4efe-bf6d-7ff01c9c36d3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='inputAccountsSelect']/span/div/button/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.multiselect-selected-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>2f206948-d50a-4bcd-b256-02f25c3a3bcc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>multiselect-selected-text</value>
+      <webElementGuid>afa04166-3b4b-4cef-b637-e03d1bb936dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>None selected</value>
+      <webElementGuid>388b379c-c0f5-4c71-b8f0-275138ef4df9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;inputAccountsSelect&quot;)/span[@class=&quot;multiselect-native-select&quot;]/div[@class=&quot;btn-group&quot;]/button[@class=&quot;multiselect dropdown-toggle btn btn-default&quot;]/span[@class=&quot;multiselect-selected-text&quot;]</value>
+      <webElementGuid>4202c7c2-0881-4b65-aabe-de5cbf465278</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='inputAccountsSelect']/span/div/button/span</value>
+      <webElementGuid>c9c69284-27dc-45f4-93bc-783591db0de5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/button/span</value>
+      <webElementGuid>b1b25cf4-1493-4a2a-91f8-b91c88185041</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'None selected' or . = 'None selected')]</value>
+      <webElementGuid>66201f5f-9806-4b13-85b4-b7599a709792</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
