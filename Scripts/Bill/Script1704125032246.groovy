@@ -60,7 +60,9 @@ if (attachments) {
 if (attachments=="Attachments File/Report_65MB.csv") {
 	assert isFileLimit==true 
 }
- 
+
+
+
 WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_object_group'), group)
 
 WebUI.click(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/button_Store new bill'))
@@ -77,7 +79,10 @@ catch (def err) {
 
 	System.out.println('success')
 }
-
+if(max_amount!="" && min_amount!="" ) {
+	assert Float.parseFloat(max_amount)>= Float.parseFloat(min_amount)
+	
+}
 
 WebUI.closeBrowser()
 
