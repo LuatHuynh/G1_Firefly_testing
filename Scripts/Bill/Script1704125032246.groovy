@@ -31,22 +31,20 @@ WebUI.click(findTestObject('Object Repository/Bill/Page_Whats playing  Firefly I
 
 WebUI.click(findTestObject('Object Repository/Bill/Page_Bills  Firefly III/a_Create new bill'))
 
-WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_name'), 'mybill')
+WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_name'), name)
 
-WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_min'), '200')
+WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_min'), min_amount)
 
-WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_max'), '220')
+WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_amount_max'), max_amount)
 
 WebUI.selectOptionByValue(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/select_dailyweeklymonthlyquarterlyevery hal_79c7c6'), 
-    'daily', true)
+    repeats, true)
 
-WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_skip'), '1')
+WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_skip'), skip)
 
-WebUI.click(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/div_End date                               _48239d'))
+WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/textarea_notes'), notes)
 
-WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/textarea_notes'), 'my bill note ')
-
-WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_object_group'), 'bill')
+WebUI.setText(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/input_object_group'), group)
 
 WebUI.click(findTestObject('Object Repository/Bill/Page_Create new bill  Bills  Firefly III/button_Store new bill'))
 
