@@ -16,7 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import java.nio.file.Paths
 
 WebUI.openBrowser('')
 
@@ -30,7 +29,7 @@ WebUI.sendKeys(findTestObject('Object Repository/Piggy Bank/Page_Login to Firefl
 
 WebUI.click(findTestObject('Object Repository/Piggy Bank/Page_Whats playing  Firefly III/a_Piggy banks'))
 
-WebUI.click(findTestObject('Piggy Bank/Page_Piggy banks  Firefly III/a_Create new piggy bank'))
+WebUI.click(findTestObject('Object Repository/Piggy Bank/Page_Piggy banks  Firefly III/a_Create new piggy bank'))
 
 WebUI.setText(findTestObject('Object Repository/Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/input_name'), name)
 
@@ -48,28 +47,23 @@ WebUI.setText(findTestObject('Object Repository/Piggy Bank/Page_New piggy bank  
 
 WebUI.setText(findTestObject('Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/input_date'), target_date)
 
-
-if(attachment) {	
-	String absolutePath = Paths.get(attachment).toAbsolutePath().normalize().toString()
-	WebUI.uploadFile(findTestObject('Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/button_upload'), absolutePath)
-}
+WebUI.uploadFile(findTestObject('Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/button_upload'), 'D:\\65MiB.bin')
 
 WebUI.click(findTestObject('Object Repository/Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/div_Mandatory fields                       _ed7e9e'))
 
 WebUI.click(findTestObject('Object Repository/Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/button_Store new piggy bank'))
 
 try {
-    WebUI.verifyElementPresent(findTestObject('Shared_alert/text_dangers'), 1)
-
-    WebUI.verifyElementNotPresent(findTestObject('Shared_alert/success_alert'), 1)
-
-    System.out.println('text danger')
+	WebUI.verifyElementPresent(findTestObject('Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/text_dangers'), 1)
+	WebUI.verifyElementNotPresent(findTestObject('Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/success_alert'), 1)
+	System.out.println("text danger");
+} catch(err) {
+	WebUI.verifyElementPresent(findTestObject('Piggy Bank/Page_New piggy bank  Piggy banks  Firefly III/success_alert'), 1)
+	System.out.println("success");
 }
-catch (def err) {
-    WebUI.verifyElementPresent(findTestObject('Shared_alert/success_alert'), 1)
-
-    System.out.println('success')
-} 
 
 WebUI.closeBrowser()
+
+
+
 

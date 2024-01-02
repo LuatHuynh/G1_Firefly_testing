@@ -1,0 +1,249 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create a new liability,Chrome 120.0.0.0,,,02-01-2024 01:18:36,02-01-2024 01:22:27,3m - 50.694s,FAILED
+,,,,,,,
+Test Cases/Create a new liability,Chrome 120.0.0.0,,,02-01-2024 01:18:37,02-01-2024 01:19:02,25.067s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 01:18:38,02-01-2024 01:18:40,2.424s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/accounts/create/liabilities"")",Chrome 120.0.0.0,,,02-01-2024 01:18:40,02-01-2024 01:18:41,1.231s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/input_email""), ""huynhluat.dn@gmail.com"")",Chrome 120.0.0.0,,,02-01-2024 01:18:41,02-01-2024 01:18:42,0.936s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/input_password""), ""GDttjE7iuxOgQwNBt53tbwiiBI5Qr4kb"")",Chrome 120.0.0.0,,,02-01-2024 01:18:42,02-01-2024 01:18:43,0.407s,PASSED
+"click(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,02-01-2024 01:18:43,02-01-2024 01:18:43,0.794s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_name""), name)",Chrome 120.0.0.0,,,02-01-2024 01:18:43,02-01-2024 01:18:45,1.918s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_Euro ()US Dollar ()""), currency, true)",Chrome 120.0.0.0,,,02-01-2024 01:18:45,02-01-2024 01:18:46,0.942s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_DebtLoanMortgage""), liability_type, true)",Chrome 120.0.0.0,,,02-01-2024 01:18:46,02-01-2024 01:18:47,0.938s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_opening_balance""), i_owe_amount)",Chrome 120.0.0.0,,,02-01-2024 01:18:47,02-01-2024 01:18:48,0.635s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_I owe this debt to somebody elseI am_93cb18""), liability_inout, true)",Chrome 120.0.0.0,,,02-01-2024 01:18:48,02-01-2024 01:18:49,0.889s,PASSED
+"setText(findTestObject(""Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_opening_balance_date""), start_date_of_debt)",Chrome 120.0.0.0,,,02-01-2024 01:18:49,02-01-2024 01:18:50,0.811s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_interest""), interest)",Chrome 120.0.0.0,,,02-01-2024 01:18:50,02-01-2024 01:18:50,0.621s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_Per dayPer monthPer year""), interest_period, true)",Chrome 120.0.0.0,,,02-01-2024 01:18:50,02-01-2024 01:18:51,0.869s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_iban""), iban)",Chrome 120.0.0.0,,,02-01-2024 01:18:51,02-01-2024 01:18:52,0.705s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_BIC""), bic)",Chrome 120.0.0.0,,,02-01-2024 01:18:52,02-01-2024 01:18:52,0.660s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_account_number""), account_number)",Chrome 120.0.0.0,,,02-01-2024 01:18:52,02-01-2024 01:18:53,0.674s,PASSED
+"if (include_in_net_worth == ""false"")",Chrome 120.0.0.0,,,02-01-2024 01:18:53,02-01-2024 01:18:53,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/textarea_notes""), notes)",Chrome 120.0.0.0,,,02-01-2024 01:18:53,02-01-2024 01:18:55,1.996s,PASSED
+"if (attachments != """")",Chrome 120.0.0.0,,,02-01-2024 01:18:55,02-01-2024 01:18:55,0.360s,PASSED
+"click(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/button_Store new liability""))",Chrome 120.0.0.0,,,02-01-2024 01:18:55,02-01-2024 01:18:59,3.475s,PASSED
+try,Chrome 120.0.0.0,,,02-01-2024 01:18:59,02-01-2024 01:19:01,2.475s,FAILED
+catch (Exception err),Chrome 120.0.0.0,,,02-01-2024 01:19:01,02-01-2024 01:19:02,0.331s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,02-01-2024 01:19:02,02-01-2024 01:19:02,0.247s,PASSED
+,,,,,,,
+Test Cases/Create a new liability,Chrome 120.0.0.0,,,02-01-2024 01:19:02,02-01-2024 01:19:25,22.666s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 01:19:02,02-01-2024 01:19:04,1.344s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/accounts/create/liabilities"")",Chrome 120.0.0.0,,,02-01-2024 01:19:04,02-01-2024 01:19:05,1.171s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/input_email""), ""huynhluat.dn@gmail.com"")",Chrome 120.0.0.0,,,02-01-2024 01:19:05,02-01-2024 01:19:06,1.265s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/input_password""), ""GDttjE7iuxOgQwNBt53tbwiiBI5Qr4kb"")",Chrome 120.0.0.0,,,02-01-2024 01:19:06,02-01-2024 01:19:06,0.409s,PASSED
+"click(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,02-01-2024 01:19:06,02-01-2024 01:19:10,3.776s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_name""), name)",Chrome 120.0.0.0,,,02-01-2024 01:19:10,02-01-2024 01:19:11,0.836s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_Euro ()US Dollar ()""), currency, true)",Chrome 120.0.0.0,,,02-01-2024 01:19:11,02-01-2024 01:19:12,0.905s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_DebtLoanMortgage""), liability_type, true)",Chrome 120.0.0.0,,,02-01-2024 01:19:12,02-01-2024 01:19:13,0.902s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_opening_balance""), i_owe_amount)",Chrome 120.0.0.0,,,02-01-2024 01:19:13,02-01-2024 01:19:13,0.654s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_I owe this debt to somebody elseI am_93cb18""), liability_inout, true)",Chrome 120.0.0.0,,,02-01-2024 01:19:13,02-01-2024 01:19:14,0.851s,PASSED
+"setText(findTestObject(""Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_opening_balance_date""), start_date_of_debt)",Chrome 120.0.0.0,,,02-01-2024 01:19:14,02-01-2024 01:19:15,0.582s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_interest""), interest)",Chrome 120.0.0.0,,,02-01-2024 01:19:15,02-01-2024 01:19:16,0.628s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_Per dayPer monthPer year""), interest_period, true)",Chrome 120.0.0.0,,,02-01-2024 01:19:16,02-01-2024 01:19:16,0.889s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_iban""), iban)",Chrome 120.0.0.0,,,02-01-2024 01:19:16,02-01-2024 01:19:17,0.690s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_BIC""), bic)",Chrome 120.0.0.0,,,02-01-2024 01:19:17,02-01-2024 01:19:18,0.636s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_account_number""), account_number)",Chrome 120.0.0.0,,,02-01-2024 01:19:18,02-01-2024 01:19:18,0.672s,PASSED
+"if (include_in_net_worth == ""false"")",Chrome 120.0.0.0,,,02-01-2024 01:19:18,02-01-2024 01:19:18,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/textarea_notes""), notes)",Chrome 120.0.0.0,,,02-01-2024 01:19:18,02-01-2024 01:19:19,0.622s,PASSED
+"if (attachments != """")",Chrome 120.0.0.0,,,02-01-2024 01:19:19,02-01-2024 01:19:19,0.323s,PASSED
+"click(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/button_Store new liability""))",Chrome 120.0.0.0,,,02-01-2024 01:19:19,02-01-2024 01:19:22,2.550s,PASSED
+try,Chrome 120.0.0.0,,,02-01-2024 01:19:22,02-01-2024 01:19:24,2.457s,FAILED
+catch (Exception err),Chrome 120.0.0.0,,,02-01-2024 01:19:24,02-01-2024 01:19:25,0.296s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,02-01-2024 01:19:25,02-01-2024 01:19:25,0.149s,PASSED
+,,,,,,,
+Test Cases/Create a new liability,Chrome 120.0.0.0,,,02-01-2024 01:19:25,02-01-2024 01:19:44,19.024s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 01:19:25,02-01-2024 01:19:27,1.469s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/accounts/create/liabilities"")",Chrome 120.0.0.0,,,02-01-2024 01:19:27,02-01-2024 01:19:28,1.253s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/input_email""), ""huynhluat.dn@gmail.com"")",Chrome 120.0.0.0,,,02-01-2024 01:19:28,02-01-2024 01:19:29,0.839s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/input_password""), ""GDttjE7iuxOgQwNBt53tbwiiBI5Qr4kb"")",Chrome 120.0.0.0,,,02-01-2024 01:19:29,02-01-2024 01:19:29,0.388s,PASSED
+"click(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,02-01-2024 01:19:29,02-01-2024 01:19:31,1.619s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_name""), name)",Chrome 120.0.0.0,,,02-01-2024 01:19:31,02-01-2024 01:19:32,0.840s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_Euro ()US Dollar ()""), currency, true)",Chrome 120.0.0.0,,,02-01-2024 01:19:32,02-01-2024 01:19:32,0.880s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_DebtLoanMortgage""), liability_type, true)",Chrome 120.0.0.0,,,02-01-2024 01:19:32,02-01-2024 01:19:33,0.900s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_opening_balance""), i_owe_amount)",Chrome 120.0.0.0,,,02-01-2024 01:19:33,02-01-2024 01:19:34,0.646s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_I owe this debt to somebody elseI am_93cb18""), liability_inout, true)",Chrome 120.0.0.0,,,02-01-2024 01:19:34,02-01-2024 01:19:35,0.831s,PASSED
+"setText(findTestObject(""Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_opening_balance_date""), start_date_of_debt)",Chrome 120.0.0.0,,,02-01-2024 01:19:35,02-01-2024 01:19:35,0.599s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_interest""), interest)",Chrome 120.0.0.0,,,02-01-2024 01:19:35,02-01-2024 01:19:36,0.629s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_Per dayPer monthPer year""), interest_period, true)",Chrome 120.0.0.0,,,02-01-2024 01:19:36,02-01-2024 01:19:37,0.821s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_iban""), iban)",Chrome 120.0.0.0,,,02-01-2024 01:19:37,02-01-2024 01:19:37,0.585s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_BIC""), bic)",Chrome 120.0.0.0,,,02-01-2024 01:19:37,02-01-2024 01:19:38,0.627s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_account_number""), account_number)",Chrome 120.0.0.0,,,02-01-2024 01:19:38,02-01-2024 01:19:39,0.635s,PASSED
+"if (include_in_net_worth == ""false"")",Chrome 120.0.0.0,,,02-01-2024 01:19:39,02-01-2024 01:19:39,0.002s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/textarea_notes""), notes)",Chrome 120.0.0.0,,,02-01-2024 01:19:39,02-01-2024 01:19:40,1.261s,PASSED
+"if (attachments != """")",Chrome 120.0.0.0,,,02-01-2024 01:19:40,02-01-2024 01:19:40,0.001s,PASSED
+"click(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/button_Store new liability""))",Chrome 120.0.0.0,,,02-01-2024 01:19:40,02-01-2024 01:19:41,1.184s,PASSED
+try,Chrome 120.0.0.0,,,02-01-2024 01:19:41,02-01-2024 01:19:44,2.455s,FAILED
+catch (Exception err),Chrome 120.0.0.0,,,02-01-2024 01:19:44,02-01-2024 01:19:44,0.293s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,02-01-2024 01:19:44,02-01-2024 01:19:44,0.151s,PASSED
+,,,,,,,
+Test Cases/Create a new liability,Chrome 120.0.0.0,,,02-01-2024 01:19:44,02-01-2024 01:20:39,54.691s,FAILED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 01:19:44,02-01-2024 01:19:46,1.411s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/accounts/create/liabilities"")",Chrome 120.0.0.0,,,02-01-2024 01:19:46,02-01-2024 01:19:47,1.202s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/input_email""), ""huynhluat.dn@gmail.com"")",Chrome 120.0.0.0,,,02-01-2024 01:19:47,02-01-2024 01:19:48,0.812s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/input_password""), ""GDttjE7iuxOgQwNBt53tbwiiBI5Qr4kb"")",Chrome 120.0.0.0,,,02-01-2024 01:19:48,02-01-2024 01:19:48,0.367s,PASSED
+"click(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,02-01-2024 01:19:48,02-01-2024 01:19:49,0.683s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_name""), name)",Chrome 120.0.0.0,,,02-01-2024 01:19:49,02-01-2024 01:19:51,1.752s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_Euro ()US Dollar ()""), currency, true)",Chrome 120.0.0.0,,,02-01-2024 01:19:51,02-01-2024 01:19:51,0.916s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_DebtLoanMortgage""), liability_type, true)",Chrome 120.0.0.0,,,02-01-2024 01:19:51,02-01-2024 01:19:52,0.881s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_opening_balance""), i_owe_amount)",Chrome 120.0.0.0,,,02-01-2024 01:19:52,02-01-2024 01:19:53,0.623s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_I owe this debt to somebody elseI am_93cb18""), liability_inout, true)",Chrome 120.0.0.0,,,02-01-2024 01:19:53,02-01-2024 01:19:54,0.833s,PASSED
+"setText(findTestObject(""Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_opening_balance_date""), start_date_of_debt)",Chrome 120.0.0.0,,,02-01-2024 01:19:54,02-01-2024 01:19:54,0.596s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_interest""), interest)",Chrome 120.0.0.0,,,02-01-2024 01:19:54,02-01-2024 01:19:55,0.595s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_Per dayPer monthPer year""), interest_period, true)",Chrome 120.0.0.0,,,02-01-2024 01:19:55,02-01-2024 01:19:56,0.829s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_iban""), iban)",Chrome 120.0.0.0,,,02-01-2024 01:19:56,02-01-2024 01:19:56,0.664s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_BIC""), bic)",Chrome 120.0.0.0,,,02-01-2024 01:19:56,02-01-2024 01:19:57,0.594s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_account_number""), account_number)",Chrome 120.0.0.0,,,02-01-2024 01:19:57,02-01-2024 01:19:58,0.601s,PASSED
+"if (include_in_net_worth == ""false"")",Chrome 120.0.0.0,,,02-01-2024 01:19:58,02-01-2024 01:19:58,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/textarea_notes""), notes)",Chrome 120.0.0.0,,,02-01-2024 01:19:58,02-01-2024 01:19:59,1.319s,PASSED
+"if (attachments != """")",Chrome 120.0.0.0,,,02-01-2024 01:19:59,02-01-2024 01:19:59,0.328s,PASSED
+"click(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/button_Store new liability""))",Chrome 120.0.0.0,,,02-01-2024 01:19:59,02-01-2024 01:20:36,36.925s,PASSED
+try,Chrome 120.0.0.0,,,02-01-2024 01:20:36,02-01-2024 01:20:39,2.418s,FAILED
+catch (Exception err),Chrome 120.0.0.0,,,02-01-2024 01:20:39,02-01-2024 01:20:39,0.281s,FAILED
+,,,,,,,
+Test Cases/Create a new liability,Chrome 120.0.0.0,,,02-01-2024 01:20:39,02-01-2024 01:20:55,16.398s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 01:20:39,02-01-2024 01:20:41,1.552s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/accounts/create/liabilities"")",Chrome 120.0.0.0,,,02-01-2024 01:20:41,02-01-2024 01:20:42,1.309s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/input_email""), ""huynhluat.dn@gmail.com"")",Chrome 120.0.0.0,,,02-01-2024 01:20:42,02-01-2024 01:20:43,0.854s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/input_password""), ""GDttjE7iuxOgQwNBt53tbwiiBI5Qr4kb"")",Chrome 120.0.0.0,,,02-01-2024 01:20:43,02-01-2024 01:20:43,0.375s,PASSED
+"click(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,02-01-2024 01:20:43,02-01-2024 01:20:44,0.699s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_name""), name)",Chrome 120.0.0.0,,,02-01-2024 01:20:44,02-01-2024 01:20:46,1.643s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_Euro ()US Dollar ()""), currency, true)",Chrome 120.0.0.0,,,02-01-2024 01:20:46,02-01-2024 01:20:46,0.896s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_DebtLoanMortgage""), liability_type, true)",Chrome 120.0.0.0,,,02-01-2024 01:20:46,02-01-2024 01:20:47,0.852s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_opening_balance""), i_owe_amount)",Chrome 120.0.0.0,,,02-01-2024 01:20:47,02-01-2024 01:20:48,0.636s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_I owe this debt to somebody elseI am_93cb18""), liability_inout, true)",Chrome 120.0.0.0,,,02-01-2024 01:20:48,02-01-2024 01:20:49,0.870s,PASSED
+"setText(findTestObject(""Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_opening_balance_date""), start_date_of_debt)",Chrome 120.0.0.0,,,02-01-2024 01:20:49,02-01-2024 01:20:50,0.816s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_interest""), interest)",Chrome 120.0.0.0,,,02-01-2024 01:20:50,02-01-2024 01:20:50,0.614s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_Per dayPer monthPer year""), interest_period, true)",Chrome 120.0.0.0,,,02-01-2024 01:20:50,02-01-2024 01:20:51,0.843s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_iban""), iban)",Chrome 120.0.0.0,,,02-01-2024 01:20:51,02-01-2024 01:20:52,0.680s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_BIC""), bic)",Chrome 120.0.0.0,,,02-01-2024 01:20:52,02-01-2024 01:20:52,0.603s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_account_number""), account_number)",Chrome 120.0.0.0,,,02-01-2024 01:20:52,02-01-2024 01:20:53,0.636s,PASSED
+"if (include_in_net_worth == ""false"")",Chrome 120.0.0.0,,,02-01-2024 01:20:53,02-01-2024 01:20:53,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/textarea_notes""), notes)",Chrome 120.0.0.0,,,02-01-2024 01:20:53,02-01-2024 01:20:54,0.593s,PASSED
+"if (attachments != """")",Chrome 120.0.0.0,,,02-01-2024 01:20:54,02-01-2024 01:20:54,0.000s,PASSED
+"click(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/button_Store new liability""))",Chrome 120.0.0.0,,,02-01-2024 01:20:54,02-01-2024 01:20:54,0.750s,PASSED
+try,Chrome 120.0.0.0,,,02-01-2024 01:20:54,02-01-2024 01:20:55,0.933s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,02-01-2024 01:20:55,02-01-2024 01:20:55,0.143s,PASSED
+,,,,,,,
+Test Cases/Create a new liability,Chrome 120.0.0.0,,,02-01-2024 01:20:56,02-01-2024 01:21:13,17.280s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 01:20:56,02-01-2024 01:20:57,1.289s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/accounts/create/liabilities"")",Chrome 120.0.0.0,,,02-01-2024 01:20:57,02-01-2024 01:20:58,1.295s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/input_email""), ""huynhluat.dn@gmail.com"")",Chrome 120.0.0.0,,,02-01-2024 01:20:58,02-01-2024 01:20:59,0.828s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/input_password""), ""GDttjE7iuxOgQwNBt53tbwiiBI5Qr4kb"")",Chrome 120.0.0.0,,,02-01-2024 01:20:59,02-01-2024 01:21:00,0.499s,PASSED
+"click(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,02-01-2024 01:21:00,02-01-2024 01:21:01,1.597s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_name""), name)",Chrome 120.0.0.0,,,02-01-2024 01:21:01,02-01-2024 01:21:02,0.805s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_Euro ()US Dollar ()""), currency, true)",Chrome 120.0.0.0,,,02-01-2024 01:21:02,02-01-2024 01:21:03,0.906s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_DebtLoanMortgage""), liability_type, true)",Chrome 120.0.0.0,,,02-01-2024 01:21:03,02-01-2024 01:21:04,0.880s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_opening_balance""), i_owe_amount)",Chrome 120.0.0.0,,,02-01-2024 01:21:04,02-01-2024 01:21:04,0.649s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_I owe this debt to somebody elseI am_93cb18""), liability_inout, true)",Chrome 120.0.0.0,,,02-01-2024 01:21:04,02-01-2024 01:21:05,0.812s,PASSED
+"setText(findTestObject(""Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_opening_balance_date""), start_date_of_debt)",Chrome 120.0.0.0,,,02-01-2024 01:21:05,02-01-2024 01:21:06,0.598s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_interest""), interest)",Chrome 120.0.0.0,,,02-01-2024 01:21:06,02-01-2024 01:21:06,0.570s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_Per dayPer monthPer year""), interest_period, true)",Chrome 120.0.0.0,,,02-01-2024 01:21:06,02-01-2024 01:21:07,0.836s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_iban""), iban)",Chrome 120.0.0.0,,,02-01-2024 01:21:07,02-01-2024 01:21:08,0.594s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_BIC""), bic)",Chrome 120.0.0.0,,,02-01-2024 01:21:08,02-01-2024 01:21:08,0.580s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_account_number""), account_number)",Chrome 120.0.0.0,,,02-01-2024 01:21:08,02-01-2024 01:21:09,0.648s,PASSED
+"if (include_in_net_worth == ""false"")",Chrome 120.0.0.0,,,02-01-2024 01:21:09,02-01-2024 01:21:09,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/textarea_notes""), notes)",Chrome 120.0.0.0,,,02-01-2024 01:21:09,02-01-2024 01:21:10,1.011s,PASSED
+"if (attachments != """")",Chrome 120.0.0.0,,,02-01-2024 01:21:10,02-01-2024 01:21:10,0.310s,PASSED
+"click(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/button_Store new liability""))",Chrome 120.0.0.0,,,02-01-2024 01:21:10,02-01-2024 01:21:12,1.556s,PASSED
+try,Chrome 120.0.0.0,,,02-01-2024 01:21:12,02-01-2024 01:21:13,0.804s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,02-01-2024 01:21:13,02-01-2024 01:21:13,0.155s,PASSED
+,,,,,,,
+Test Cases/Create a new liability,Chrome 120.0.0.0,,,02-01-2024 01:21:13,02-01-2024 01:21:31,17.987s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 01:21:13,02-01-2024 01:21:14,1.285s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/accounts/create/liabilities"")",Chrome 120.0.0.0,,,02-01-2024 01:21:14,02-01-2024 01:21:16,1.185s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/input_email""), ""huynhluat.dn@gmail.com"")",Chrome 120.0.0.0,,,02-01-2024 01:21:16,02-01-2024 01:21:17,1.084s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/input_password""), ""GDttjE7iuxOgQwNBt53tbwiiBI5Qr4kb"")",Chrome 120.0.0.0,,,02-01-2024 01:21:17,02-01-2024 01:21:17,0.371s,PASSED
+"click(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,02-01-2024 01:21:17,02-01-2024 01:21:18,0.667s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_name""), name)",Chrome 120.0.0.0,,,02-01-2024 01:21:18,02-01-2024 01:21:19,1.435s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_Euro ()US Dollar ()""), currency, true)",Chrome 120.0.0.0,,,02-01-2024 01:21:19,02-01-2024 01:21:20,0.913s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_DebtLoanMortgage""), liability_type, true)",Chrome 120.0.0.0,,,02-01-2024 01:21:20,02-01-2024 01:21:21,0.869s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_opening_balance""), i_owe_amount)",Chrome 120.0.0.0,,,02-01-2024 01:21:21,02-01-2024 01:21:22,0.642s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_I owe this debt to somebody elseI am_93cb18""), liability_inout, true)",Chrome 120.0.0.0,,,02-01-2024 01:21:22,02-01-2024 01:21:22,0.837s,PASSED
+"setText(findTestObject(""Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_opening_balance_date""), start_date_of_debt)",Chrome 120.0.0.0,,,02-01-2024 01:21:22,02-01-2024 01:21:23,0.585s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_interest""), interest)",Chrome 120.0.0.0,,,02-01-2024 01:21:23,02-01-2024 01:21:24,0.600s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_Per dayPer monthPer year""), interest_period, true)",Chrome 120.0.0.0,,,02-01-2024 01:21:24,02-01-2024 01:21:24,0.863s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_iban""), iban)",Chrome 120.0.0.0,,,02-01-2024 01:21:24,02-01-2024 01:21:25,0.678s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_BIC""), bic)",Chrome 120.0.0.0,,,02-01-2024 01:21:25,02-01-2024 01:21:26,0.586s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_account_number""), account_number)",Chrome 120.0.0.0,,,02-01-2024 01:21:26,02-01-2024 01:21:26,0.590s,PASSED
+"if (include_in_net_worth == ""false"")",Chrome 120.0.0.0,,,02-01-2024 01:21:26,02-01-2024 01:21:26,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/textarea_notes""), notes)",Chrome 120.0.0.0,,,02-01-2024 01:21:26,02-01-2024 01:21:27,0.593s,PASSED
+"if (attachments != """")",Chrome 120.0.0.0,,,02-01-2024 01:21:27,02-01-2024 01:21:27,0.000s,PASSED
+"click(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/button_Store new liability""))",Chrome 120.0.0.0,,,02-01-2024 01:21:27,02-01-2024 01:21:28,1.188s,PASSED
+try,Chrome 120.0.0.0,,,02-01-2024 01:21:28,02-01-2024 01:21:31,2.445s,FAILED
+catch (Exception err),Chrome 120.0.0.0,,,02-01-2024 01:21:31,02-01-2024 01:21:31,0.290s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,02-01-2024 01:21:31,02-01-2024 01:21:31,0.165s,PASSED
+,,,,,,,
+Test Cases/Create a new liability,Chrome 120.0.0.0,,,02-01-2024 01:21:31,02-01-2024 01:21:50,18.442s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 01:21:31,02-01-2024 01:21:33,1.341s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/accounts/create/liabilities"")",Chrome 120.0.0.0,,,02-01-2024 01:21:33,02-01-2024 01:21:34,1.230s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/input_email""), ""huynhluat.dn@gmail.com"")",Chrome 120.0.0.0,,,02-01-2024 01:21:34,02-01-2024 01:21:35,1.037s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/input_password""), ""GDttjE7iuxOgQwNBt53tbwiiBI5Qr4kb"")",Chrome 120.0.0.0,,,02-01-2024 01:21:35,02-01-2024 01:21:36,0.788s,PASSED
+"click(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,02-01-2024 01:21:36,02-01-2024 01:21:37,1.201s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_name""), name)",Chrome 120.0.0.0,,,02-01-2024 01:21:37,02-01-2024 01:21:38,0.847s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_Euro ()US Dollar ()""), currency, true)",Chrome 120.0.0.0,,,02-01-2024 01:21:38,02-01-2024 01:21:39,0.908s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_DebtLoanMortgage""), liability_type, true)",Chrome 120.0.0.0,,,02-01-2024 01:21:39,02-01-2024 01:21:39,0.880s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_opening_balance""), i_owe_amount)",Chrome 120.0.0.0,,,02-01-2024 01:21:39,02-01-2024 01:21:40,0.634s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_I owe this debt to somebody elseI am_93cb18""), liability_inout, true)",Chrome 120.0.0.0,,,02-01-2024 01:21:40,02-01-2024 01:21:41,0.837s,PASSED
+"setText(findTestObject(""Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_opening_balance_date""), start_date_of_debt)",Chrome 120.0.0.0,,,02-01-2024 01:21:41,02-01-2024 01:21:42,0.811s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_interest""), interest)",Chrome 120.0.0.0,,,02-01-2024 01:21:42,02-01-2024 01:21:42,0.618s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_Per dayPer monthPer year""), interest_period, true)",Chrome 120.0.0.0,,,02-01-2024 01:21:42,02-01-2024 01:21:43,0.860s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_iban""), iban)",Chrome 120.0.0.0,,,02-01-2024 01:21:43,02-01-2024 01:21:44,0.586s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_BIC""), bic)",Chrome 120.0.0.0,,,02-01-2024 01:21:44,02-01-2024 01:21:44,0.608s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_account_number""), account_number)",Chrome 120.0.0.0,,,02-01-2024 01:21:44,02-01-2024 01:21:45,0.578s,PASSED
+"if (include_in_net_worth == ""false"")",Chrome 120.0.0.0,,,02-01-2024 01:21:45,02-01-2024 01:21:45,0.001s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/textarea_notes""), notes)",Chrome 120.0.0.0,,,02-01-2024 01:21:45,02-01-2024 01:21:46,0.590s,PASSED
+"if (attachments != """")",Chrome 120.0.0.0,,,02-01-2024 01:21:46,02-01-2024 01:21:46,0.001s,PASSED
+"click(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/button_Store new liability""))",Chrome 120.0.0.0,,,02-01-2024 01:21:46,02-01-2024 01:21:47,1.121s,PASSED
+try,Chrome 120.0.0.0,,,02-01-2024 01:21:47,02-01-2024 01:21:49,2.449s,FAILED
+catch (Exception err),Chrome 120.0.0.0,,,02-01-2024 01:21:49,02-01-2024 01:21:49,0.284s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,02-01-2024 01:21:49,02-01-2024 01:21:50,0.149s,PASSED
+,,,,,,,
+Test Cases/Create a new liability,Chrome 120.0.0.0,,,02-01-2024 01:21:50,02-01-2024 01:22:08,18.773s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 01:21:50,02-01-2024 01:21:51,1.369s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/accounts/create/liabilities"")",Chrome 120.0.0.0,,,02-01-2024 01:21:51,02-01-2024 01:21:52,1.167s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/input_email""), ""huynhluat.dn@gmail.com"")",Chrome 120.0.0.0,,,02-01-2024 01:21:52,02-01-2024 01:21:53,0.831s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/input_password""), ""GDttjE7iuxOgQwNBt53tbwiiBI5Qr4kb"")",Chrome 120.0.0.0,,,02-01-2024 01:21:53,02-01-2024 01:21:54,0.372s,PASSED
+"click(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,02-01-2024 01:21:54,02-01-2024 01:21:55,1.366s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_name""), name)",Chrome 120.0.0.0,,,02-01-2024 01:21:55,02-01-2024 01:21:56,0.923s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_Euro ()US Dollar ()""), currency, true)",Chrome 120.0.0.0,,,02-01-2024 01:21:56,02-01-2024 01:21:57,0.897s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_DebtLoanMortgage""), liability_type, true)",Chrome 120.0.0.0,,,02-01-2024 01:21:57,02-01-2024 01:21:58,0.862s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_opening_balance""), i_owe_amount)",Chrome 120.0.0.0,,,02-01-2024 01:21:58,02-01-2024 01:21:58,0.629s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_I owe this debt to somebody elseI am_93cb18""), liability_inout, true)",Chrome 120.0.0.0,,,02-01-2024 01:21:58,02-01-2024 01:21:59,0.848s,PASSED
+"setText(findTestObject(""Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_opening_balance_date""), start_date_of_debt)",Chrome 120.0.0.0,,,02-01-2024 01:21:59,02-01-2024 01:22:00,0.806s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_interest""), interest)",Chrome 120.0.0.0,,,02-01-2024 01:22:00,02-01-2024 01:22:00,0.614s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_Per dayPer monthPer year""), interest_period, true)",Chrome 120.0.0.0,,,02-01-2024 01:22:00,02-01-2024 01:22:01,0.890s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_iban""), iban)",Chrome 120.0.0.0,,,02-01-2024 01:22:01,02-01-2024 01:22:02,0.596s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_BIC""), bic)",Chrome 120.0.0.0,,,02-01-2024 01:22:02,02-01-2024 01:22:03,0.619s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_account_number""), account_number)",Chrome 120.0.0.0,,,02-01-2024 01:22:03,02-01-2024 01:22:03,0.588s,PASSED
+"if (include_in_net_worth == ""false"")",Chrome 120.0.0.0,,,02-01-2024 01:22:03,02-01-2024 01:22:03,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/textarea_notes""), notes)",Chrome 120.0.0.0,,,02-01-2024 01:22:03,02-01-2024 01:22:05,1.390s,PASSED
+"if (attachments != """")",Chrome 120.0.0.0,,,02-01-2024 01:22:05,02-01-2024 01:22:05,0.000s,PASSED
+"click(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/button_Store new liability""))",Chrome 120.0.0.0,,,02-01-2024 01:22:05,02-01-2024 01:22:06,1.047s,PASSED
+try,Chrome 120.0.0.0,,,02-01-2024 01:22:06,02-01-2024 01:22:08,2.445s,FAILED
+catch (Exception err),Chrome 120.0.0.0,,,02-01-2024 01:22:08,02-01-2024 01:22:08,0.278s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,02-01-2024 01:22:08,02-01-2024 01:22:08,0.148s,PASSED
+,,,,,,,
+Test Cases/Create a new liability,Chrome 120.0.0.0,,,02-01-2024 01:22:09,02-01-2024 01:22:27,18.446s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,02-01-2024 01:22:09,02-01-2024 01:22:10,1.259s,PASSED
+"navigateToUrl(""https://firefly.buudadawg.online/accounts/create/liabilities"")",Chrome 120.0.0.0,,,02-01-2024 01:22:10,02-01-2024 01:22:11,1.143s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/input_email""), ""huynhluat.dn@gmail.com"")",Chrome 120.0.0.0,,,02-01-2024 01:22:11,02-01-2024 01:22:12,0.841s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/input_password""), ""GDttjE7iuxOgQwNBt53tbwiiBI5Qr4kb"")",Chrome 120.0.0.0,,,02-01-2024 01:22:12,02-01-2024 01:22:12,0.352s,PASSED
+"click(findTestObject(""Object Repository/Create a new liability/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,02-01-2024 01:22:12,02-01-2024 01:22:13,0.633s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_name""), name)",Chrome 120.0.0.0,,,02-01-2024 01:22:13,02-01-2024 01:22:14,1.389s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_Euro ()US Dollar ()""), currency, true)",Chrome 120.0.0.0,,,02-01-2024 01:22:14,02-01-2024 01:22:15,1.126s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_DebtLoanMortgage""), liability_type, true)",Chrome 120.0.0.0,,,02-01-2024 01:22:15,02-01-2024 01:22:16,0.881s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_opening_balance""), i_owe_amount)",Chrome 120.0.0.0,,,02-01-2024 01:22:16,02-01-2024 01:22:17,0.623s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_I owe this debt to somebody elseI am_93cb18""), liability_inout, true)",Chrome 120.0.0.0,,,02-01-2024 01:22:17,02-01-2024 01:22:18,0.803s,PASSED
+"setText(findTestObject(""Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_opening_balance_date""), start_date_of_debt)",Chrome 120.0.0.0,,,02-01-2024 01:22:18,02-01-2024 01:22:18,0.598s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_interest""), interest)",Chrome 120.0.0.0,,,02-01-2024 01:22:18,02-01-2024 01:22:19,0.597s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/select_Per dayPer monthPer year""), interest_period, true)",Chrome 120.0.0.0,,,02-01-2024 01:22:19,02-01-2024 01:22:20,0.869s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_iban""), iban)",Chrome 120.0.0.0,,,02-01-2024 01:22:20,02-01-2024 01:22:20,0.639s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_BIC""), bic)",Chrome 120.0.0.0,,,02-01-2024 01:22:20,02-01-2024 01:22:21,0.593s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/input_account_number""), account_number)",Chrome 120.0.0.0,,,02-01-2024 01:22:21,02-01-2024 01:22:22,0.595s,PASSED
+"if (include_in_net_worth == ""false"")",Chrome 120.0.0.0,,,02-01-2024 01:22:22,02-01-2024 01:22:22,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/textarea_notes""), notes)",Chrome 120.0.0.0,,,02-01-2024 01:22:22,02-01-2024 01:22:23,1.354s,PASSED
+"if (attachments != """")",Chrome 120.0.0.0,,,02-01-2024 01:22:23,02-01-2024 01:22:23,0.000s,PASSED
+"click(findTestObject(""Object Repository/Create a new liability/Page_Create a new liability  Accounts  Firefly III/button_Store new liability""))",Chrome 120.0.0.0,,,02-01-2024 01:22:23,02-01-2024 01:22:24,1.182s,PASSED
+try,Chrome 120.0.0.0,,,02-01-2024 01:22:24,02-01-2024 01:22:27,2.451s,FAILED
+catch (Exception err),Chrome 120.0.0.0,,,02-01-2024 01:22:27,02-01-2024 01:22:27,0.289s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,02-01-2024 01:22:27,02-01-2024 01:22:27,0.167s,PASSED

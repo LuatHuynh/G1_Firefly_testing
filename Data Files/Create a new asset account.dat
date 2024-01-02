@@ -7,9 +7,9 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator>COMMA</csvSeperator>
    <dataFileGUID>cc1e1d7a-cf48-46ce-8400-9b5642e46597</dataFileGUID>
-   <dataSourceUrl>D:\truong khtn\Học kì 7\Kiểm thử phần mềm\Đồ án\MOCK_DATA.csv</dataSourceUrl>
+   <dataSourceUrl>Attachments File/asset_account.csv</dataSourceUrl>
    <driver>CSV</driver>
-   <isInternalPath>false</isInternalPath>
+   <isInternalPath>true</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
    <sheetName></sheetName>
