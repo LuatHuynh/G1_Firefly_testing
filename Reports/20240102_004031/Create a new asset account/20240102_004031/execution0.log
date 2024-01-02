@@ -15498,10 +15498,7 @@ Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.c
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2024-01-01T17:57:45.157632300Z</date>
   <millis>1704131865157</millis>
