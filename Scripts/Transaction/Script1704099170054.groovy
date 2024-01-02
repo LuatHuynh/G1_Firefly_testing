@@ -52,14 +52,19 @@ if (WebUI.getText(findTestObject('Object Repository/Transaction/Page_Create new 
         ) //        foreign_amount)
 }
 
+<<<<<<< HEAD
 try {
 	WebUI.waitForElementPresent(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/select_budget', 1))
     WebUI.selectOptionByLabel(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/select_budget'), 
         budget, true)
+=======
+if(WebUI.waitForElementPresent(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/select_(none)      My Budget', 1))) {
+	WebUI.selectOptionByLabel(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/select_(none)      My Budget'),
+		budget, true)
+} else {	
+	System.out.println('not found budget')
+>>>>>>> a8450c76066e6f62b3de49775d41a1c3af518b02
 }
-catch (def err) {
-    System.out.println('not found budget')
-} 
 
 WebUI.setText(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/input_category'), 
     category)
@@ -70,15 +75,21 @@ WebUI.selectOptionByValue(findTestObject('Object Repository/Transaction/Page_Cre
 WebUI.setText(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/input_ti-new-tag-input ti-valid'), 
     tags)
 
+<<<<<<< HEAD
 try {
     WebUI.waitForElementPresent(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/select_bill'), 1)
 
     WebUI.selectOptionByLabel(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/select_bill'), 
         bill, true)
+=======
+if(WebUI.waitForElementPresent(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/select_(none)      Name'), 
+        1)) {
+	WebUI.selectOptionByLabel(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/select_(none)      Name'),
+		bill, true)
+} else {	
+	System.out.println('not found bill')
+>>>>>>> a8450c76066e6f62b3de49775d41a1c3af518b02
 }
-catch (def err) {
-    System.out.println('not found bill')
-} 
 
 WebUI.click(findTestObject('Object Repository/Transaction/Page_Create new withdrawal  Transactions  F_057ce1/button_Submit'))
 
